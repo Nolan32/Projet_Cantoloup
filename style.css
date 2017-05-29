@@ -18,3 +18,22 @@ body {
 	text-align: center;
 	line-height: 275%;
 }
+
+p {
+	margin-top: 5%;
+}
+
+input {
+	margin-top: 5%;
+	margin-left: 15%;
+}
+
+label {
+	margin-top: 5%;
+	margin-left: 15%;
+}
+
+button {
+	margin-top: 5%;
+	margin-left: 40%;
+}
