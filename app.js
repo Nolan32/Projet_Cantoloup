@@ -2,6 +2,18 @@ console.log('Hello');
 
 var situations = [];
 
+var image = {
+	reseauSociaux:"res/reseauSociaux",
+	cyberharcelement:"res/cyberHarcelement",
+	porno:"res/porn",
+	arnaques:"res/arnaques",
+	radicalisation:"res/radicalisation",
+	droitAuteur:"res/droit",
+	controlParental:"res/controlParental",
+	recherche:"res/recherche",
+	hack:"res/hack",
+};
+
 var num1 = {
 	situation : "situation numéro 1",
 	resA : "bonne reponse",
