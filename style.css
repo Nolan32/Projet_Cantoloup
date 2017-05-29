@@ -1,25 +1,52 @@
 body {
-	margin: 1%;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
 
 .nav-wrapper {
 	width: 100%;
+	padding-bottom: 7%;
 }
 
 .brand-logo {
 	width: 10%;
 	text-align: center;
+	margin-top: 11pt;
 }
 
-.center {
+.title {
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-align: center;
-	line-height: 400%;
-	width: 100%;
+	margin: auto;
 }
 
 img {
 	margin-top: 4%;
+}
+
+img:hover {
+	-webkit-transform:scale(1.04); /* Safari and Chrome */
+	-moz-transform:scale(1.04); /* Firefox */
+	-ms-transform:scale(1.04); /* IE 9 */
+	-o-transform:scale(1.04); /* Opera */
+}
+
+p {
+	margin-top: 2%;
+	text-align: center;
+}
+
+input {
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+label {
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+button {
+	margin-top: 2%;
+	margin-left: 40%;
 }
