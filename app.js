@@ -1,7 +1,5 @@
 console.log('Hello');
 
-
-
 var situations = [{
 	situation : "Situation numéro 1",
 	resA : "Lala1",
@@ -11,6 +9,7 @@ var situations = [{
 	ifResB : "C'est la mauvaise reponse + Message prevention",
 	genre : "reseauSociaux.jpg"
 },
+
 {
 	situation : "Situation numéro 2",
 	resA : "Lala2",
