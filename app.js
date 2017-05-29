@@ -1,7 +1,5 @@
 console.log('Hello');
 
-
-
 var situations = [{
 	situation : "Situation numéro 1",
 	resA : "Lala1",
@@ -11,6 +9,7 @@ var situations = [{
 	ifResB : "C'est la mauvaise reponse + Message prevention",
 	genre : "reseauSociaux.jpg"
 },
+
 {
 	situation : "Situation numéro 2",
 	resA : "Lala2",
@@ -45,6 +44,7 @@ function reponsePreventionMessage() {
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
 		if(test === situations[Alea].response){
+<<<<<<< HEAD
 			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
 			setTimeout(CreateButon,1000);
 		}else{
@@ -53,7 +53,7 @@ function reponsePreventionMessage() {
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red">Veuillez choisir une réponse pour avoir accès à internet</div>');
+		$('#reponsePrevention').html('<div class="card-panel red darken-1">Veuillez cochez la bonne réponse pour accéder à internet</div>');
 	}
 }
 
