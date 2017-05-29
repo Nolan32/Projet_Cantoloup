@@ -45,3 +45,13 @@ p {
 button {
 	margin-top: 2%;
 }
+
+#situation {
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+}
+
+.center-align {
+	padding-bottom: 11%;
+}
