@@ -14,7 +14,7 @@ var num1 = {
 
 
 
-function preventionMessage() {
+function reponsePreventionMessage() {
 	if ($("#radioBtn input").is(':checked')){
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
@@ -32,7 +32,7 @@ function preventionMessage() {
 
 
 
-affichageReponses();
+
 $("#validate").click(function() {
-	preventionMessage();
+	reponsePreventionMessage();
 });
