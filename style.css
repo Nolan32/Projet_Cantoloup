@@ -22,13 +22,15 @@ body {
 
 img {
 	margin-top: 4%;
+	margin-left: 2%;
 }
 
 img:hover {
-	-webkit-transform:scale(1.04); /* Safari and Chrome */
+	-webkit-transform:scale(1.08); /* Safari and Chrome */
 	-moz-transform:scale(1.04); /* Firefox */
 	-ms-transform:scale(1.04); /* IE 9 */
 	-o-transform:scale(1.04); /* Opera */
+	border: solid;
 }
 
 p {
