@@ -1,38 +1,34 @@
 console.log('Hello');
 
-var image = {
-	reseauSociaux:"res/reseauSociaux",
-	cyberharcelement:"res/cyberHarcelement",
-	porno:"res/porn",
-	arnaques:"res/arnaques",
-	radicalisation:"res/radicalisation",
-	droitAuteur:"res/droit",
-	controlParental:"res/controlParental",
-	recherche:"res/recherche",
-	hack:"res/hack",
-};
+
 
 var situations = [{
-	situation : "Situation numéro 1",
-	resA : "lala1",
-	resB : "lolo1",
-	response : "resA",
-	ifResA : "tu as donné la bonne reponse + message prevention",
-	ifResB : "tu as donné la mauvaise reponse + message prevention"},
-	{
-		situation : "Situation numéro 2",
-		resA : "lala2",
-		resB : "lolo2",
-		response : "resB",
-		ifResA : "bravo, tu as donné la bonne reponse + message prevention",
-		ifResB : "dommage, tu as donné la mauvaise reponse + message prevention"}];
+					situation : "situation numéro 1",
+					resA : "lala1",
+					resB : "lolo1",
+					response : "resA",
+					ifResA : "tu as donné la bonne reponse + message prevention",
+					ifResB : "tu as donné la mauvaise reponse + message prevention",
+					genre : "reseauSociaux.jpg"
+				},
+				{
+					situation : "situation numéro 2",
+					resA : "lala2",
+					resB : "lolo2",
+					response : "resB",
+					ifResA : "bravo, tu as donné la bonne reponse + message prevention",
+					ifResB : "dommage, tu as donné la mauvaise reponse + message prevention",
+					genre : "porn.jpg",
+				},];
 
 
 
 
-		var Alea =Math.floor(Math.random()*situations.length);				
-		function GenererPreventionAlea(){
-	// $('#img').append("<img class='responsive-img' src='/res/nom_de_l_image'>")
+
+
+var Alea =Math.floor(Math.random()*situations.length);				
+function GenererPreventionAlea(){
+	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>")
 	$('#situation').html(situations[Alea].situation);
 	$('#resA').html(situations[Alea].resA);
 	$('#resB').html(situations[Alea].resB);
@@ -44,11 +40,9 @@ function reponsePreventionMessage() {
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
 		if(test === situations[Alea].response){
-			$("#reponsePrevention").html(situations[Alea].ifResA);
+			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
 		}else{
-			$('#reponsePrevention').html(situations[Alea].ifResB);
-
-			
+			$('#reponsePrevention').html('<div class="card-panel red lighten-3">'+situations[Alea].ifResB+'</div>');
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
