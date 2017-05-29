@@ -33,7 +33,12 @@ function GenererPreventionAlea(){
 	$('#resA').html(situations[Alea].resA);
 	$('#resB').html(situations[Alea].resB);
 }	
-
+function CreateButon(){
+	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>www.google.fr</button>");
+	$('#CreateButon').delegate('#redirection','click',function(){
+		window.location.href ='http://www.google.fr';
+	});
+}
 function reponsePreventionMessage() {
 
 	if ($("#radioBtn input").is(':checked')){
@@ -54,6 +59,7 @@ $(document).ready(function(){
 	GenererPreventionAlea();
 	$("#validate").click(function() {
 		reponsePreventionMessage();
+		setTimeout(CreateButon,10000);
 	});
 });
 
