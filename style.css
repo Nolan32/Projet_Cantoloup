@@ -1,7 +1,6 @@
 body {
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
-
 .nav-wrapper {
 	width: 100%;
 	padding-bottom: 7%;
@@ -26,7 +25,7 @@ img {
 }
 
 img:hover {
-	-webkit-transform:scale(1.08); /* Safari and Chrome */
+	-webkit-transform:scale(1.07); /* Safari and Chrome */
 	-moz-transform:scale(1.04); /* Firefox */
 	-ms-transform:scale(1.04); /* IE 9 */
 	-o-transform:scale(1.04); /* Opera */
@@ -48,10 +47,15 @@ button {
 
 #situation {
 	text-align: center;
-	text-transform: uppercase;
 	padding-bottom: 2%;
 }
 
 .center-align {
 	padding-bottom: 11%;
+}
+
+.card-panel {
+	width: 50%;
+	display: block;
+	margin: auto;
 }

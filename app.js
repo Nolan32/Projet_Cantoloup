@@ -3,23 +3,23 @@ console.log('Hello');
 
 
 var situations = [{
-					situation : "situation numéro 1",
-					resA : "lala1",
-					resB : "lolo1",
-					response : "resA",
-					ifResA : "tu as donné la bonne reponse + message prevention",
-					ifResB : "tu as donné la mauvaise reponse + message prevention",
-					genre : "reseauSociaux.jpg"
-				},
-				{
-					situation : "situation numéro 2",
-					resA : "lala2",
-					resB : "lolo2",
-					response : "resB",
-					ifResA : "bravo, tu as donné la bonne reponse + message prevention",
-					ifResB : "dommage, tu as donné la mauvaise reponse + message prevention",
-					genre : "porn.jpg",
-				},];
+	situation : "Situation numéro 1",
+	resA : "Lala1",
+	resB : "Lolo1",
+	response : "resA",
+	ifResA : "C'est la bonne la bonne reponse + Message prevention",
+	ifResB : "C'est la mauvaise reponse + Message prevention",
+	genre : "reseauSociaux.jpg"
+},
+{
+	situation : "Situation numéro 2",
+	resA : "Lala2",
+	resB : "Lolo2",
+	response : "resB",
+	ifResA : "Bravo, c'est la bonne reponse + Message prevention",
+	ifResB : "Dommage, c'est la mauvaise reponse + Message prevention",
+	genre : "porn.jpg",
+},];
 
 
 
@@ -28,7 +28,7 @@ var situations = [{
 
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
-	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>")
+	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
 	$('#situation').html(situations[Alea].situation);
 	$('#resA').html(situations[Alea].resA);
 	$('#resB').html(situations[Alea].resB);
@@ -36,8 +36,8 @@ function GenererPreventionAlea(){
 function CreateButon(){
 	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>www.google.fr</button>");
 	$('#CreateButon').delegate('#redirection','click',function(){
-		window.location.href ='http://www.google.fr'
-	})
+		window.location.href ='http://www.google.fr';
+	});
 }
 function reponsePreventionMessage() {
 
@@ -55,7 +55,6 @@ function reponsePreventionMessage() {
 		console.log("pas de reponse selectionnée");
 		$('#reponsePrevention').html('<div class="card-panel red">Veuillez choisir une réponse pour avoir accès à internet</div>');
 	}
-	
 }
 
 $(document).ready(function(){
