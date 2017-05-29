@@ -11,46 +11,48 @@
 <body>
 	<header>
 		<nav class="nav-wrapper blue darken-1">
-			<a href="#!" class="brand-logo">LOGO</a>
-			<h5 class="center">Centre Cantoloup Lavallée</h5>		
+			<a href="#!" class="brand-logo hide-on-med-and-down">LOGO</a>
+			<h5 class="title">Cantoloup Lavallée</h5>	
 		</nav>
 	</header>
 
 	<main>
 		<div class="row">	
 			<div class="col s5">
-				<img class="responsive-img" src="https://unsplash.it/458/354?image=1069">
+				<img class="responsive-img z-depth-5" src="https://unsplash.it/458/354?image=1069">
 			</div>
 			<div class="col s7">		
 				<div id="text">
 					<h5 class="center-align">Quelle réaction te paraît être la bonne?</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum ut eros nec eleifend. Morbi vitae ipsum vel libero tristique rutrum ac non nibh. </p>
+					<div id="situation"></div>
 				</div>
+
 				<div id="radioBtn">
 					<input id="radioTrue" type="radio" name="answer" value="resA">
-					<label for="radioTrue">Bonne réponse (True)</label>
+					<label for="radioTrue" id="resA">Bonne réponse (True)</label>
+
 					<input id="radioFalse" type="radio" name="answer" value="resB">
-					<label for="radioFalse">Mauvaise réponse (False)</label>
+					<label for="radioFalse" id="resB">Mauvaise réponse (False)</label>
 				</div>
+
 				<div>	
-					<button id="validate" class="waves-effect waves-light btn-large"">OK</button>
+					<button id="validate" class="btn waves-effect green darken-2">OK</button>
 				</div>
 			</div>
 		</div>
 	</main>
+
 	<footer>
+		
 		<div id="reponsePrevention">
 			
 		</div>
 		
 	</footer>
 
-
-	
-
-
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
+	
 </body>
 </html>
