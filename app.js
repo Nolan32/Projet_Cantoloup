@@ -44,7 +44,7 @@ function reponsePreventionMessage() {
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
 		if(test === situations[Alea].response){
-<<<<<<< HEAD
+
 			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
 			setTimeout(CreateButon,1000);
 		}else{
