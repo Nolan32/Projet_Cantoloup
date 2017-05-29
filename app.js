@@ -1,6 +1,7 @@
 console.log('Hello');
 
 
+
 var situations = [{
 					situation : "situation numéro 1",
 					resA : "lala1",
@@ -23,14 +24,15 @@ var situations = [{
 
 
 
+
+
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>")
 	$('#situation').html(situations[Alea].situation);
 	$('#resA').html(situations[Alea].resA);
 	$('#resB').html(situations[Alea].resB);
-};
-
+}	
 
 function reponsePreventionMessage() {
 
@@ -41,21 +43,12 @@ function reponsePreventionMessage() {
 			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
 		}else{
 			$('#reponsePrevention').html('<div class="card-panel red lighten-3">'+situations[Alea].ifResB+'</div>');
-		
-			
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
 	}
 	
 }
-
-
-
-
-
-
-
 
 $(document).ready(function(){
 	GenererPreventionAlea();
