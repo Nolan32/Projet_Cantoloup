@@ -38,17 +38,10 @@ p {
 	text-align: center;
 }
 
-input {
-	margin-top: 2%;
-	margin-left: 15%;
-}
-
-label {
-	margin-top: 2%;
-	margin-left: 15%;
+#radioBtn {
+	text-align: center;
 }
 
 button {
 	margin-top: 2%;
-	margin-left: 40%;
 }
