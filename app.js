@@ -32,7 +32,7 @@ function preventionMessage() {
 
 
 
-
+affichageReponses();
 $("#validate").click(function() {
 	preventionMessage();
 });
