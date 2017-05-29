@@ -16,5 +16,10 @@ body {
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-align: center;
-	line-height: 275%;
+	line-height: 400%;
+	width: 100%;
+}
+
+img {
+	margin-top: 4%;
 }
