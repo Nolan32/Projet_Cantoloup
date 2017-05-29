@@ -9,8 +9,38 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<header>
+		<nav class="nav-wrapper blue darken-1">
+			<a href="#!" class="brand-logo">LOGO</a>
+			<h5 class="center">Centre Cantoloup Lavallée</h5>		
+		</nav>
+	</header>
 
-	<h2 class="center-align">Page d'accueil</h2>
+	<main>
+		<div class="row">	
+			<div class="col s5">
+				<img class="responsive-img" src="https://unsplash.it/458/354?image=1069">
+			</div>
+			<div class="col s7">		
+				<h2 class="center-align">ADMIN</h2>
+				<div id="text">
+					<h5 class="center-align">Quelle réaction te paraît être la bonne?</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum ut eros nec eleifend. Morbi vitae ipsum vel libero tristique rutrum ac non nibh. </p>
+				</div>
+				<input id="radioTrue" type="radio" name="answer" value="true">
+				<label for="radioTrue">Bonne réponse (True)</label>
+				<input id="radioFalse" type="radio" name="answer" value="false">
+				<label for="radioFalse">Mauvaise réponse (False)</label>
+				<div>	
+					<button id="validate" class="waves-effect waves-light btn-large"">OK</button>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	
+
 
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
