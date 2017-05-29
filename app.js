@@ -44,15 +44,15 @@ function reponsePreventionMessage() {
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
 		if(test === situations[Alea].response){
-			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
+			$("#reponsePrevention").html('<div class="card-panel light-green lighten-2">'+situations[Alea].ifResA+'</div>');
 			setTimeout(CreateButon,10000);
 		}else{
-			$('#reponsePrevention').html('<div class="card-panel red lighten-3">'+situations[Alea].ifResB+'</div>');
+			$('#reponsePrevention').html('<div class="card-panel red darken-1">'+situations[Alea].ifResB+'</div>');
 			setTimeout(CreateButon,10000);
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red">Veuillez choisir une réponse pour avoir accès à internet</div>');
+		$('#reponsePrevention').html('<div class="card-panel red darken-1">Veuillez cochez la bonne réponse pour accéder à internet</div>');
 	}
 }
 
