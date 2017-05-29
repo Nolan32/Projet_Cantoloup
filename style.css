@@ -1,7 +1,6 @@
 body {
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
-
 .nav-wrapper {
 	width: 100%;
 	padding-bottom: 7%;
@@ -53,4 +52,10 @@ button {
 
 .center-align {
 	padding-bottom: 11%;
+}
+
+.card-panel {
+	width: 50%;
+	display: block;
+	margin: auto;
 }

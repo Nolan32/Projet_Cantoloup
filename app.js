@@ -7,8 +7,8 @@ var situations = [{
 	resA : "Lala1",
 	resB : "Lolo1",
 	response : "resA",
-	ifResA : "Tu as donné la bonne reponse + Message prevention",
-	ifResB : "Tu as donné la mauvaise reponse + Message prevention",
+	ifResA : "C'est la bonne la bonne reponse + Message prevention",
+	ifResB : "C'est la mauvaise reponse + Message prevention",
 	genre : "reseauSociaux.jpg"
 },
 {
@@ -16,8 +16,8 @@ var situations = [{
 	resA : "Lala2",
 	resB : "Lolo2",
 	response : "resB",
-	ifResA : "Bravo, Tu as donné la bonne reponse + Message prevention",
-	ifResB : "Dommage, Tu as donné la mauvaise reponse + Message prevention",
+	ifResA : "Bravo, c'est la bonne reponse + Message prevention",
+	ifResB : "Dommage, c'est la mauvaise reponse + Message prevention",
 	genre : "porn.jpg",
 },];
 
@@ -51,8 +51,8 @@ function reponsePreventionMessage() {
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
+		$('#reponsePrevention').html('<div class="card-panel red darken-2 center">'+'Veuillez cochez une réponse'+'</div>');
 	}
-	
 }
 
 $(document).ready(function(){
