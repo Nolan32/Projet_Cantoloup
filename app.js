@@ -46,10 +46,12 @@ function reponsePreventionMessage() {
 		console.log(test);
 		if(test === situations[Alea].response){
 			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
-			setTimeout(CreateButon,10000);
+			setTimeout(CreateButon,1000);
+			console.log('pepito');
 		}else{
 			$('#reponsePrevention').html('<div class="card-panel red lighten-3">'+situations[Alea].ifResB+'</div>');
-			setTimeout(CreateButon,10000);
+			setTimeout(CreateButon,1000);
+			console.log('josiane');
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
