@@ -1,35 +1,58 @@
 body {
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-family: ‘Times New Roman’, Times, serif;
+	background-color: Gainsboro;
+	box-shadow: 6px 3px 20px black;
+	width: auto;
+	height: auto;
 }
+
 .nav-wrapper {
 	width: 100%;
-	padding-bottom: 7%;
+	padding-bottom: 8%;
+	position: fixed;
+	top: 0;
+	background-image:linear-gradient(50deg, #F3F8F9, Gainsboro);
 }
 
 .brand-logo {
-	width: 10%;
-	text-align: center;
-	margin-top: 11pt;
+	width: 5%;
+	margin-top: 16pt;
+	margin-left: 1%;		
 }
 
 .title {
 	text-transform: uppercase;
-	text-decoration: underline;
 	text-align: center;
 	margin: auto;
+	color: black;
+	letter-spacing: 10pt;
 }
 
-img {
-	margin-top: 4%;
+.sousTitre {
+	text-align: center;
+	margin: auto;
+	font-size: 80%;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 1pt;
+}
+
+.responsive-img {
+	margin-top: 8%;
+	margin-bottom: 2%;
 	margin-left: 2%;
+	border-radius: 16%;
+	border: dashed;
+	border-width: 1pt;
+	width: 85%;
 }
 
-img:hover {
-	-webkit-transform:scale(1.07); /* Safari and Chrome */
-	-moz-transform:scale(1.04); /* Firefox */
-	-ms-transform:scale(1.04); /* IE 9 */
-	-o-transform:scale(1.04); /* Opera */
-	border: solid;
+.responsive-img:hover {
+	-webkit-transform:scale(1.07);
+	-moz-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	-o-transform:scale(1.04);
+	border-radius: 0%;
+	width: 90%;
 }
 
 p {
@@ -47,16 +70,39 @@ button {
 
 #situation {
 	text-align: center;
-	padding-bottom: 2%;
+	padding-bottom: 10%;
 }
 
 .center-align {
 	padding-bottom: 11%;
+	margin-top: 13%;
+	font-size: 130%;
+	font-weight: bold;
 }
 
-.card-panel {
-	width: 50%;
+.Panel {
+	width: 45%;
 	display: block;
 	margin: auto;
+	margin-bottom: 2%;
 	text-align: center;
+	border-radius: 100%;
+}
+
+.brown {
+	display: block;
+	margin: auto;
+	width: 40%;
+	margin-top: 8%;
+	box-shadow: 0 1px 16px 0 black;
+}
+
+.parallax {
+	filter: blur(10px) brightness(1);
+}
+
+#validate {
+	display: block;
+	margin: auto;
+	margin-top: 4%;
 }

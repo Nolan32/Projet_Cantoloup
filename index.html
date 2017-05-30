@@ -9,35 +9,42 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
 	<header>
-		<nav class="nav-wrapper blue darken-1">
-			<a href="#!" class="brand-logo hide-on-med-and-down">LOGO</a>
-			<h5 class="title">Cantoloup Lavallée</h5>	
+		<nav class="nav-wrapper">
+			<a href="#!"><img class="brand-logo hide-on-med-and-down" src="Logo 2.png" alt="Logo" /></a>
+			<h5 class="title">Cantoloup Lavallée</h5>
+			<h6 class="sousTitre hide-on-med-and-down">Etablissement Public Social & Médico-Social</h6>	
 		</nav>
 	</header>
 
+	<div class="parallax-container">
+		<div class="parallax"><img src="Enfants.jpg"></div>
+	</div>
+
 	<main>
 		<div class="row">	
-			<div class="col s5" id="img">
-				
+			<div class="col s5 center" id="img">
 			</div>
-			<div class="col s7">		
-				<div id="text">
-					<h5 class="center-align">Veuillez cochez la bonne réponse</h5>
-					<div id="situation"></div>
-				</div>
 
-				<div id="radioBtn">
-					<input id="radioTrue" type="radio" name="answer" value="resA">
-					<label for="radioTrue" id="resA">Bonne réponse (True)</label>
+			<div class="col s7">
+				<div class="card-panel brown lighten-5">				
+					<div id="text">
+						<h5 class="center-align">Veuillez cochez la bonne réponse</h5>
+						<div id="situation"></div>
+					</div>
 
-					<input id="radioFalse" type="radio" name="answer" value="resB">
-					<label for="radioFalse" id="resB">Mauvaise réponse (False)</label>
+					<div id="radioBtn">
+						<input id="radioTrue" type="radio" name="answer" value="resA">
+						<label for="radioTrue" id="resA">Bonne réponse (True)</label>
+
+						<input id="radioFalse" type="radio" name="answer" value="resB">
+						<label for="radioFalse" id="resB">Mauvaise réponse (False)</label>
+					</div>
 					<div>	
 						<button id="validate" class="btn waves-effect green darken-2">OK</button>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</main>
@@ -45,13 +52,13 @@
 	<footer>
 
 		<div class="row">
-			
+
 			<div class="col s6 offset-s3" id="reponsePrevention">
-				
+
 			</div>
 			<div id="CreateButon"></div>
 		</div>	
-		
+
 	</footer>
 
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>

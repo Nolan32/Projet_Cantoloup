@@ -1,5 +1,28 @@
 console.log('Hello');
 var count=0;
+<<<<<<< HEAD
+=======
+var situations = [{
+	situation : "Situation numéro 1",
+	resA : "Lala1",
+	resB : "Lolo1",
+	response : "resA",
+	ifResA : "C'est la bonne la bonne reponse + Message prevention",
+	ifResB : "C'est la mauvaise reponse + Message prevention",
+	genre : "reseauSociaux.jpg"
+},
+
+{
+	situation : "Situation numéro 2",
+	resA : "Lala2",
+	resB : "Lolo2",
+	response : "resB",
+	ifResA : "Bravo, c'est la bonne reponse + Message prevention",
+	ifResB : "Dommage, c'est la mauvaise reponse + Message prevention",
+	genre : "porn.jpg",
+},];
+
+>>>>>>> 28b4fa698dc971db4bbe8e6add03c6136ea5691c
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
@@ -18,21 +41,20 @@ function reponsePreventionMessage() {
 	if ($("#radioBtn input").is(':checked')){
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
-		if(test === situations[Alea].response){
-
-			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
+		if(test === situations[Alea].response){			
+			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3 Panel">'+situations[Alea].ifResA+'</div>');
 			if (count===0) {
 				setTimeout(CreateButon,1000);
 			}
 		}else{
-			$('#reponsePrevention').html('<div class="card-panel red lighten-3">'+situations[Alea].ifResB+'</div>');
+			$('#reponsePrevention').html('<div class="card-panel red lighten-3 Panel">'+situations[Alea].ifResB+'</div>');
 			if (count===0) {
 				setTimeout(CreateButon,1000);
 			}	
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1">Veuillez cochez la bonne réponse pour accéder à internet</div>');
+		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez la bonne réponse pour accéder à internet</div>');
 	}
 }
 
@@ -42,5 +64,7 @@ $(document).ready(function(){
 		reponsePreventionMessage();
 		count ++
 	});
+
+	$('.parallax').parallax();
 });
 
