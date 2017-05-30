@@ -20,11 +20,6 @@ var situations = [{
 	genre : "porn.jpg",
 },];
 
-
-
-
-
-
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
@@ -62,5 +57,7 @@ $(document).ready(function(){
 		reponsePreventionMessage();
 		
 	});
+
+	$('.parallax').parallax();
 });
 
