@@ -1,8 +1,8 @@
 body {
 	font-family: ‘Times New Roman’, Times, serif;
-	background-color: #F3F8F9;
+	background-color: Gainsboro;
 	box-shadow: 6px 3px 20px black;
-	width: 100%;
+	width: auto;
 	height: auto;
 }
 
@@ -11,7 +11,7 @@ body {
 	padding-bottom: 8%;
 	position: fixed;
 	top: 0;
-	background-color: #F3F8F9;
+	background-image:linear-gradient(50deg, #F3F8F9, Gainsboro);
 }
 
 .brand-logo {
@@ -32,15 +32,18 @@ body {
 	text-align: center;
 	margin: auto;
 	font-size: 80%;
-	text-shadow: 2px 1px 2px black;
+	text-shadow: 1px 1px 1px black;
 	letter-spacing: 1pt;
 }
 
 .responsive-img {
-	margin-top: 4%;
+	margin-top: 8%;
+	margin-bottom: 2%;
 	margin-left: 2%;
-	box-shadow: 0 4px 16px 0 black;
 	border-radius: 16%;
+	border: dashed;
+	border-width: 1pt;
+	width: 85%;
 }
 
 .responsive-img:hover {
@@ -49,6 +52,7 @@ body {
 	-ms-transform:scale(1.04);
 	-o-transform:scale(1.04);
 	border-radius: 0%;
+	width: 90%;
 }
 
 p {
@@ -66,16 +70,18 @@ button {
 
 #situation {
 	text-align: center;
-	padding-bottom: 2%;
+	padding-bottom: 10%;
 }
 
 .center-align {
 	padding-bottom: 11%;
 	margin-top: 13%;
+	font-size: 130%;
+	font-weight: bold;
 }
 
-.card-panel {
-	width: 48%;
+.Panel {
+	width: 45%;
 	display: block;
 	margin: auto;
 	margin-bottom: 2%;
@@ -83,6 +89,20 @@ button {
 	border-radius: 100%;
 }
 
+.brown {
+	display: block;
+	margin: auto;
+	width: 40%;
+	margin-top: 8%;
+	box-shadow: 0 1px 16px 0 black;
+}
+
 .parallax {
 	filter: blur(10px) brightness(1);
+}
+
+#validate {
+	display: block;
+	margin: auto;
+	margin-top: 4%;
 }

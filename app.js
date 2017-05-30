@@ -1,5 +1,5 @@
 console.log('Hello');
-
+var count=0;
 var situations = [{
 	situation : "Situation numéro 1",
 	resA : "Lala1",
@@ -38,16 +38,20 @@ function reponsePreventionMessage() {
 	if ($("#radioBtn input").is(':checked')){
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
-		if(test === situations[Alea].response){
-			$("#reponsePrevention").html('<div class="card-panel light-green lighten-2">'+situations[Alea].ifResA+'</div>');
-			setTimeout(CreateButon,10000);
+		if(test === situations[Alea].response){			
+			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3 Panel">'+situations[Alea].ifResA+'</div>');
+			if (count===0) {
+				setTimeout(CreateButon,1000);
+			}
 		}else{
-			$('#reponsePrevention').html('<div class="card-panel red darken-1">'+situations[Alea].ifResB+'</div>');
-			setTimeout(CreateButon,10000);
+			$('#reponsePrevention').html('<div class="card-panel red lighten-3 Panel">'+situations[Alea].ifResB+'</div>');
+			if (count===0) {
+				setTimeout(CreateButon,1000);
+			}	
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1">Veuillez cochez la bonne réponse pour accéder à internet</div>');
+		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez la bonne réponse pour accéder à internet</div>');
 	}
 }
 
@@ -55,7 +59,7 @@ $(document).ready(function(){
 	GenererPreventionAlea();
 	$("#validate").click(function() {
 		reponsePreventionMessage();
-		
+		count ++
 	});
 
 	$('.parallax').parallax();
