@@ -1,28 +1,5 @@
 console.log('Hello');
 var count=0;
-<<<<<<< HEAD
-=======
-var situations = [{
-	situation : "Situation numéro 1",
-	resA : "Lala1",
-	resB : "Lolo1",
-	response : "resA",
-	ifResA : "C'est la bonne la bonne reponse + Message prevention",
-	ifResB : "C'est la mauvaise reponse + Message prevention",
-	genre : "reseauSociaux.jpg"
-},
-
-{
-	situation : "Situation numéro 2",
-	resA : "Lala2",
-	resB : "Lolo2",
-	response : "resB",
-	ifResA : "Bravo, c'est la bonne reponse + Message prevention",
-	ifResB : "Dommage, c'est la mauvaise reponse + Message prevention",
-	genre : "porn.jpg",
-},];
-
->>>>>>> 28b4fa698dc971db4bbe8e6add03c6136ea5691c
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
