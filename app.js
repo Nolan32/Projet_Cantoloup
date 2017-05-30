@@ -1,5 +1,5 @@
 console.log('Hello');
-
+var count=0;
 var situations = [{
 	situation : "Situation numéro 1",
 	resA : "Lala1",
@@ -46,10 +46,14 @@ function reponsePreventionMessage() {
 		if(test === situations[Alea].response){
 
 			$("#reponsePrevention").html('<div class="card-panel light-green lighten-3">'+situations[Alea].ifResA+'</div>');
-			setTimeout(CreateButon,1000);
+			if (count===0) {
+				setTimeout(CreateButon,1000);
+			}
 		}else{
 			$('#reponsePrevention').html('<div class="card-panel red lighten-3">'+situations[Alea].ifResB+'</div>');
-			setTimeout(CreateButon,1000);
+			if (count===0) {
+				setTimeout(CreateButon,1000);
+			}	
 		}
 	}else{
 		console.log("pas de reponse selectionnée");
@@ -61,7 +65,7 @@ $(document).ready(function(){
 	GenererPreventionAlea();
 	$("#validate").click(function() {
 		reponsePreventionMessage();
-		
+		count ++
 	});
 });
 
