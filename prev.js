@@ -26,16 +26,16 @@ var situations = [{
 	genre : "hack.jpg",
 },
 {
-	situation:"Josiane vient de voir sur youtube une vidéo d’une personne qui a inventé une application qui permet au smartphone de faire balance pour peser de gros volume (par exemple, une personne ).",
-	resA:"Contente d’avoir découvert cette application elle décide de l’installer sur son smartphone et de se peser de suite en ce mettant sur le smartphone.",
-	resB:"Cette vidéo est surement un fake un téléphone ne peut pas peser une personne",
+	situation:"Josiane vient de voir sur youtube une vidéo d’une personne qui a inventé une application qui permet d'avoir une balance sur smartphone pour peser de gros volume (par exemple, une personne ).",
+	resA:"Contente d’avoir découvert cette application, elle décide de l’installer sur son smartphone et de se peser de suite en montant sur le smartphone.",
+	resB:"Cette vidéo est surement un fake! Un téléphone ne peut pas peser une personne",
 	response:"resB",
-	ifResA:"Oh bah dit donc, le téléphone s’est brisé lorsqu’elle a mit une partie de son poid sur le téléphone,c’est vraiment dommage elle doit racheter un nouveau téléphone ",
-	ifResB:"Toute les vidéo sur youtube ou autre site sur internet ne son pas forcement vrai il faut avoir un regard critique sur ce que l’on voit.",
+	ifResA:"Oh bah dit donc, le téléphone s’est brisé lorsqu’elle a mit une partie de son poid sur le téléphone,c’est vraiment dommage elle va devoir se racheter un nouveau téléphone ",
+	ifResB:"Toute les vidéo sur youtube ou autre site sur internet ne son pas forcement vraies ! Il faut avoir un regard critique sur ce que l’on voit.",
 	genre:"recherche.jpg"
 },
 {
-	situation: "Tu passe beaucoup de temps sur ton compte facebook. En effet, pour toi cela te permets de vider ton esprit, de partager tes expériences et c’est ton plaisir.",
+	situation: "Tu passe beaucoup de temps sur ton compte facebook. En effet, cela te permets de vider ton esprit, de partager tes expériences et c’est ton plaisir.",
 	resA: "Tu partage tes photos, tes expériences et tes opinions en ayant confiance dans ce que tu fais. Après tout, tu n’accepte l’invitation que des personnes dont tu es sûr.",
 	resB: "Certes, tu passe beaucoup de temps sur facebook. Mais lorsqu’il s’agit de partager tes ressentis, des photos de toi, de tes potes et de ta famille, même qu'à des personnes connus, tu restes très prudent(e) et tu réfléchis vraiment avant de poster quelque chose.",
 	response: "resB",
@@ -66,7 +66,7 @@ var situations = [{
 	resA:"Il decide d'aller sur un site de téléchargement pour obtenir ce film.",
 	resB:"Il décide d’attendre la sortie de ce film en DVD pour l’acheter avec les sous qu’il aura économisé pour.",
 	response : "resB",
-	ifResA:"Dommage pour les parents d’Arthur, il vient de se faire attraper à avoir télécharger ce film et maintenant ils doivent payer une amende de 1500€.Les parent d’Arthur sont content de payer un film 1500€ au lieu de 20€ ! ",
+	ifResA:"Dommage pour les parents d’Arthur, il vient de se faire attraper pour avoir télécharger ce film et maintenant ils doivent payer une amende de 1500€.Les parent d’Arthur sont content de payer un film 1500€ au lieu de 20€ ! ",
 	ifResB:"Arthur évite d’une part des problèmes pour ces parents et sauve son ordinateur d’une mort certaine.", 
 	genre : "droit.jpg"
 },

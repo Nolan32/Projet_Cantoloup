@@ -8,7 +8,7 @@ function GenererPreventionAlea(){
 	$('#resB').html(situations[Alea].resB);
 }
 function CreateButon(){
-	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>www.google.fr</button>");
+	$('#CreateButon').append("<button class='btn waves-effect green darken-2 btn_redirect' id='redirection'>GOOGLE</button>");
 	$('#CreateButon').delegate('#redirection','click',function(){
 		window.location.href ='http://www.google.fr';
 	});
@@ -20,28 +20,26 @@ function reponsePreventionMessage(){
 		console.log(test);
 
 		if(test === situations[Alea].response){	
-
-			if (situations[Alea].response === "resA"){		
-				$("#reponsePrevention").html('<div class="card-panel light-green lighten-3 Panel">'+situations[Alea].ifResA+'</div>');
-				if (count===0){
+			if (situations[Alea].response === "resA") {		
+				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
+				if (count===0) {
 					setTimeout(CreateButon,1000);
 				}
 			}else{
-				$("#reponsePrevention").html('<div class="card-panel light-green lighten-3 Panel">'+situations[Alea].ifResB+'</div>');
-				if (count===0){
+				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
+				if (count===0) {
 					setTimeout(CreateButon,1000);
 				}
 			}
 		}else if (test !== situations[Alea].response){
-
-			if (situations[Alea].response === "resB"){
-				$('#reponsePrevention').html('<div class="card-panel red lighten-3 Panel">'+situations[Alea].ifResA+'</div>');
-				if (count===0){
+			if (situations[Alea].response === "resB") {
+				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
+				if (count===0) {
 					setTimeout(CreateButon,1000);
 				}
 			}else{
-				$('#reponsePrevention').html('<div class="card-panel red lighten-3 Panel">'+situations[Alea].ifResB+'</div>');
-				if (count===0){
+				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
+				if (count===0) {
 					setTimeout(CreateButon,1000);
 				}
 			}
