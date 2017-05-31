@@ -65,5 +65,7 @@ $(document).ready(function(){
 	});
 
 	$('.parallax').parallax();
+	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
+	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
 });
 
