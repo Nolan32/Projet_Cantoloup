@@ -23,20 +23,24 @@
 	</div>
 
 	<main>
-		<div class="row">	
-			<div class="col s5 center" id="img">
-			</div>
+		<div class="row">
+			<div class="col s5">	
+				<div class="center" id="img"></div>
+				<div class="center" id="reponsePrevention"></div>
+				<div class="center" id="CreateButon"></div>
+			</div>	
+	
 
 			<div class="col s7">
-				<div class="card-panel brown lighten-5">				
+				<div class="card-panel brown lighten-5 col s12">				
 					<div id="text">
-						<h5 class="center-align">Veuillez cochez la bonne réponse</h5>
-						<div id="situation"></div>
+						<h5 class="center-align">Veuillez choisir la bonne réaction</h5>
+						<div id="situation" class=""></div>
 					</div>
 
 					<div id="radioBtn">
 						<input id="radioTrue" type="radio" name="answer" value="resA">
-						<label for="radioTrue" id="resA">Bonne réponse (True)</label>
+						<label for="radioTrue" class="" id="resA">Bonne réponse (True)</label>
 
 						<input id="radioFalse" type="radio" name="answer" value="resB">
 						<label for="radioFalse" id="resB">Mauvaise réponse (False)</label>
@@ -46,24 +50,20 @@
 					</div>
 				</div>
 			</div>
+
+			
 		</div>
 	</main>
 
 	<footer>
 
-		<div class="row">
-
-			<div class="col s6 offset-s3" id="reponsePrevention">
-
-			</div>
-			<div id="CreateButon"></div>
-		</div>	
+			
 
 	</footer>
 
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script type="text/javascript" src="prev.js"></script>
 	<script type="text/javascript" src="app.js"></script>
-
 </body>
 </html>
