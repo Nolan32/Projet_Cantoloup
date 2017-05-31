@@ -29,12 +29,16 @@ body {
 	color: black;
 	letter-spacing: 9pt;
 	margin-top: 2%;
+	-vendor-animation-duration: 100s;
+	-vendor-animation-delay: 100s;
+	-vendor-animation-iteration-count: infinite;
 }
 
 .sousTitre {
 	text-align: center;
 	margin: auto;
-	font-size: 80%;
+	margin-top: 1%;
+	font-size: 85%;
 	text-shadow: 1px 1px 1px black;
 	letter-spacing: 1pt;
 }

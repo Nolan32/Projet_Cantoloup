@@ -47,28 +47,22 @@ function reponsePreventionMessage() {
 			}
 
 		}else{
-			console.log("pas de reponse selectionnée");
+			console.log("Pas de reponse selectionnée");
 			$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez la bonne réponse pour accéder à internet</div>');
-		
 		}
 	}
 }
-
-
-
-
-
-
-
 
 
 $(document).ready(function(){
 	GenererPreventionAlea();
 	$("#validate").click(function() {
 		reponsePreventionMessage();
-		count ++
+		count ++;
 	});
 
 	$('.parallax').parallax();
+	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
+	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
 });
 
