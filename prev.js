@@ -161,7 +161,33 @@ var situations = [{
 	ifResB: "La diffusion des photos est devenu incontrôlable. Charles a pété le plombs et a commencé à manger de la craie pour calmer ses angoisses.",
 	genre : "cyberHarcelement.jpg",
 },
-
+{
+	situation: "Parce que bon élève Charles est le bouc émissaire de sa classe. Et un soir où il était dans sa chambre, il se rend compte que quelqu’un a posté des photos dégradantes de lui sur Internet. Le lendemain, tu vois tout la classe se moquer de lui.",
+	resA: "Tu as mal pour lui et même si tu ne l’apprécie pas trop tu préfères prévenir un adulte.",
+	resB: "C’est pas ton problème. A vraie dire, tu trouves les photos plutôt kiffantes.",
+	response: "resA",
+	ifResA: "Les cyberviolences n’ont pas de limite temporelle : elles peuvent s’exercer à toute heure du jour ou de la nuit et laissent des traces numériques (une photo publiée peut demeurer très longtemps sur Internet). L’auteur lui-même, une fois les agressions publiées sur la toile, ne peut maîtriser la diffusion des contenus.",
+	ifResB: "La diffusion des photos est devenu incontrôlable. Charles a pété le plombs et a commencé à manger de la craie pour calmer ses angoisses.",
+	genre : "cyberHarcelement.jpg"
+},
+{
+	situation: "Une pote à toi a été accusé d’avoir insulté vos camarades de classe sur Facebook, toi compris. Or, elle n’a plus accès à son compte.",
+	resA:  "Tu lui demandes des explications, ne la croit pas et l’envoie bouler.",
+	resB: "Tu lui demandes des explications et vas vérifier sa connexion Facebook avec elle.",
+	response: "resB",
+	ifResA:  "Son compte a été piraté. Elle a dû en faire part à ses parents qui ont pris les mesures nécessaires. Par contre, elle a perdu confiance en toi... ",
+	ifResB: "En allant vérifier sa connexion Facebook tu te rends compte que quelqu’un a piraté son compte à des fins malveillantes. Puis vous allez avertir un adulte.",
+	genre : "cyberHarcelement.jpg",
+},
+{ 
+	situation: "Cela fait quelque temps que l’ambiance se dégrade au collège, il semble qu’une guerre a éclaté sur les réseaux sociaux. Bagarres, insultes et provocations font partie du quotidien.",
+	resA: "T’es au courant tu reçois pleins de messages insultants et tu essaies de calmer le jeu comme tu peux.",
+	resB:   "T’es comme un fou...tu t’éclates à envenimer la situation. ",
+	response: "resA",
+	ifResA: "C’est un bon début, et savais-tu que 40% des élèves avouent avoir subi une agression en ligne et 85% des faits de harcèlement ont lieu dans le cadre d’un groupe. Le cyber-harcèlement est l’affaire de tout le monde.",
+	ifResB: "La situation a continué à s’empirer comme-suit: un allumé, une kalash et oups...t’es mort...",
+	genre : "cyberHarcelement.jpg"
+},
 
 
 
