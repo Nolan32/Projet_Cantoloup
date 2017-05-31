@@ -7,8 +7,10 @@ body {
 }
 
 .nav-wrapper {
+	display: block;
+	margin: auto;
 	width: 100%;
-	padding-bottom: 8%;
+	padding-bottom: 9%;
 	position: fixed;
 	top: 0;
 	background-image:linear-gradient(50deg, #F3F8F9, Gainsboro);
@@ -133,6 +135,10 @@ button {
 .parallax {
 	filter: blur(10px) brightness(1);
 }
+
+.parallax-container{
+	margin-top: 9%;
+} 
 
 #validate {
 	display: block;
