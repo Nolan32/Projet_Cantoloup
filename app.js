@@ -48,7 +48,7 @@ function reponsePreventionMessage(){
 		}
 	}else{
 		console.log("Pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez la bonne réponse pour accéder à internet</div>');
+		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez une réponse pour accéder à internet</div>');
 	}
 }
 
