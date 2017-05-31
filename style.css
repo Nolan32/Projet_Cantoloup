@@ -22,22 +22,28 @@ body {
 	margin-left: 1%;		
 }
 
+.Fr {
+	float: right;
+	width: 4%;
+	margin-top: 20pt;
+	margin-right: 1%;		
+}
+
 .title {
 	text-transform: uppercase;
 	text-align: center;
 	margin: auto;
 	color: black;
-	letter-spacing: 9pt;
+	letter-spacing: 8pt;
 	margin-top: 2%;
-	-vendor-animation-duration: 100s;
-	-vendor-animation-delay: 100s;
-	-vendor-animation-iteration-count: infinite;
+	margin-left: 6%;
 }
 
 .sousTitre {
 	text-align: center;
 	margin: auto;
-	margin-top: 1%;
+	margin-top: 1.5%;
+	margin-left: 5.3%;
 	font-size: 85%;
 	text-shadow: 1px 1px 1px black;
 	letter-spacing: 1pt;

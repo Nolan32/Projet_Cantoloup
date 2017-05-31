@@ -1,4 +1,5 @@
 console.log('Hello');
+
 var count=0;
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
@@ -60,8 +61,8 @@ $(document).ready(function(){
 		count ++;
 	});
 
-	$('.parallax').parallax();
-	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
-	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
+	$(".parallax").parallax();
+	$(".title").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend");
+	$(".sousTitre").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend");
 });
 
