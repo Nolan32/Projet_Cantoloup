@@ -59,7 +59,7 @@ $(document).ready(function(){
 	});
 
 	$('.parallax').parallax();
-	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
-	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
+	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
+	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
 });
 
