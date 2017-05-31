@@ -111,7 +111,7 @@ var situations = [{
 	resA: "Tu rigoles en même temps que Damien rédige de fausses rumeurs sur les réseaux sociaux. Et toi et tes potes relayez tout.", 
 	resB: "Au début tu rigoles, puis tu calme le jeu, mais comme tu vois que Damien est sérieux tu préfère prevenir un adulte.",
 	response: "resB",
-	ifResA: "Les fausses rumeurs se sont incontrôlablement propagées. Sous la pression Nicola a fait une tentative de suicide.", 
+	ifResA: "Les fausses rumeurs sont incontrôlable et se propagent vite. Sous la pression Nicola a fait une tentative de suicide.", 
 	ifResB: "Tu as bien fait. Le cyber-harcèlement est puni par la loi, au même titre que le harcèlement classique. Les premiers responsables en cas de harcèlement en ligne sont les auteurs des propos en cause. Un intermédiaire ne sera responsable que si : il a eu connaissance des messages publiés, et s'il n'a pas agi rapidement pour faire retirer ses messages dès qu'il en a eu connaissance.(www.service-public.fr)",
 	genre : "cyberHarcelement.jpg",
 
@@ -153,7 +153,7 @@ var situations = [{
 	genre : "radicalisation.jpg"
 },
 {
-	situation: "Parce que bon élève Charles est le bouc émissaire de sa classe. Et un soir où il était dans sa chambre, il se rend compte que quelqu’un a posté des photos dégradantes de lui sur Internet. Le lendemain, tu vois toute la classe se moquer de lui.",
+	situation: "Parce qu'il est bon élève, Charles est le bouc émissaire de sa classe. Un soir où il était dans sa chambre, il se rend compte que quelqu’un a posté des photos dégradantes de lui sur Internet. Le lendemain, tu vois toute la classe se moquer de lui.",
 	resA: "Tu as mal pour lui et même si tu ne l’apprécie pas trop tu préfères prévenir un adulte.",
 	resB: "C’est pas ton problème. A vraie dire, tu trouves les photos plutôt kiffantes.",
 	response: "resA",
@@ -188,6 +188,24 @@ var situations = [{
 	ifResB: "La situation a continué à s’empirer comme-suit: un allumé, une kalash et oups...t’es mort...",
 	genre : "cyberHarcelement.jpg"
 },
+{
+	situation : "Martin et Kelly se sont rencontrés sur internet. Après de nombreuses discussions passionnées, ils décident de se faire un chat vidéo. Quelques minutes après avoir commencé, Kelly propose à Martin de se déshabiller et elle aussi.",
+	resA : "Martin accepte! Ca fait 2 mois qu’ils se connaissent et qu’ils communiquent par téléphone. En plus, c’est cool!",
+	resB : "Martin refuse! Il ne veut pas prendre de risques, même s’il en a très envie!",
+	response : "resB",
+	ifResA : "Kelly a joué le jeu, jusqu'à ce qu’elle coupe sa caméra et menace Martin de diffuser cette vidéo sur internet, les réseaux sociaux… Martin n’ayant pas les moyen de lui donner la somme qu’elle désiré, la vidéo fut diffusée et il s’est obligé à rester enfermé chez lui. Aujourd’hui, on l’appelle l’homme aux milliards de chats.",
+	ifResB : "Bravo, il a évité les ennuis! Le délit de Sextorsion consiste en l'extorsion via Internet de faveurs sexuelles ou monétaires. Il se double le plus souvent de celui de chantage à la webcam.",
+	genre : "cyberHarcelement.jpg",
+},
+{
+	situation : "Frank rencontre par hasard un ami du collège. Il ne se sont pas vu depuis plusieurs années et pourtant, son ami est au courant de toute sa vie, avec beaucoup de détails comme le lieu de son mariage ou encore ce qu’il a fait pour ses 25 ans…",
+	resA : "Choqué, Frank cherche à comprendre comment son ami sait tout ça.",
+	resB : "Ravi de voir que son ami avait pris des nouvelles de lui, il lui raconte les détails qu’il lui manque.",
+	response : "resA",
+	ifResA : "Grâce à internet et aux réseaux sociaux, l’ami de Frank n’a fait que lire les informations qu’il y a sur internet ! Alors, vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
+	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
+	genre : "reseauSociaux.jpg",
+}
 
 
 
