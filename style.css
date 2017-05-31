@@ -29,12 +29,16 @@ body {
 	color: black;
 	letter-spacing: 9pt;
 	margin-top: 2%;
+	-vendor-animation-duration: 100s;
+	-vendor-animation-delay: 100s;
+	-vendor-animation-iteration-count: infinite;
 }
 
 .sousTitre {
 	text-align: center;
 	margin: auto;
-	font-size: 80%;
+	margin-top: 1%;
+	font-size: 85%;
 	text-shadow: 1px 1px 1px black;
 	letter-spacing: 1pt;
 }
@@ -81,7 +85,6 @@ button {
 .btn_redirect {
 	display: block;
 	margin: auto;
-	margin-left: 31%;
 	margin-bottom: 1%;
 	width: 25%;
 	text-align: center;
@@ -108,15 +111,15 @@ button {
 	margin: auto;
 	margin-bottom: 2%;
 	text-align: center;
-	margin-left: 6%;
 }
 
 .brown {
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: auto;
+	height: auto;
 	margin-top: 1%;
-	margin-bottom: 3%;
+	margin-bottom: 1%;
 	text-align: center;
 	box-shadow: 0px 2px 10px black;
 }
