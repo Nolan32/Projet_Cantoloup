@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "materialize-css": "^0.98.2"
   },
   "devDependencies": {},

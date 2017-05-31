@@ -1,66 +1,70 @@
 <!DOCTYPE html>
-<html lang="English">
-	<head>
-		<meta charset="utf-8">
-		<title>English version</title>
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
-		<link rel="stylesheet" type="text/css" href="../style.css">
-	</head>
-	<body>
+<html lang="En">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>English Version</title>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
 
-		<header>
-			<nav class="nav-wrapper">
-				<a href="#!"><img class="brand-logo hide-on-med-and-down" src="Logo 2.png" alt="Logo" /></a>
-				<h5 class="title">Cantoloup Lavallée</h5>
-				<h6 class="sousTitre hide-on-med-and-down">Social and medical and social public institution</h6>	
-			</nav>
-		</header>
+	<header>
+		<nav class="nav-wrapper">
+			<a href="../index.html"><img class="brand-logo hide-on-med-and-down" src="Logo 2.png" alt="Logo" /></a>
+			<a href="../index.html"><img class="Fr" src="Fr.png" alt="logoFR"/></a>
+			<h5 id="Title" class="title animated infinite flash">Cantoloup Lavallée</h5>
+			<h6 class="sousTitre hide-on-med-and-down animated infinite slideOutUp ">Social and medical social public institution</h6>	
+		</nav>
+	</header>
 
-		<div class="parallax-container">
-			<div class="parallax"><img src="Enfants.jpg"></div>
-		</div>
+	<div class="parallax-container">
+		<div class="parallax"><img src="Enfants.jpg"></div>
+	</div>
 
-		<main>
-			<div class="row">
-				<div class="col s5">	
-					<div class="center" id="img"></div>
+	<main>
+		<div class="row">
+			<div class="col s5">	
+				<div class="center" id="img"></div>
+			</div>	
+
+			<div class="col s7">
+				<div class="card-panel brown lighten-5 col s12">				
+					<div id="text">
+						<h5 class="center-align">Please choose the good reaction</h5>
+						<div id="situation" class=""></div>
+					</div>
+
+					<div id="radioBtn">
+						<input id="radioTrue" type="radio" name="answer" value="resA">
+						<label for="radioTrue" class="" id="resA"></label>
+
+						<input id="radioFalse" type="radio" name="answer" value="resB">
+						<label for="radioFalse" id="resB"></label>
+					</div>
+
+					<div>	
+						<button id="validate" class="btn waves-effect green darken-2">OK</button>
+					</div>
+
 					<div class="center" id="reponsePrevention"></div>
 					<div class="center" id="CreateButon"></div>
-				</div>	
-	
-
-				<div class="col s7">
-					<div class="card-panel brown lighten-5 col s12">				
-						<div id="text">
-							<h5 class="center-align">Please choose the good reaction</h5>
-							<div id="situation" class=""></div>
-						</div>
-
-						<div id="radioBtn">
-							<input id="radioTrue" type="radio" name="answer" value="resA">
-							<label for="radioTrue" class="" id="resA"></label>
-
-							<input id="radioFalse" type="radio" name="answer" value="resB">
-							<label for="radioFalse" id="resB"></label>
-						</div>
-						<div>	
-							<button id="validate" class="btn waves-effect green darken-2">OK</button>
-						</div>
-					</div>
 				</div>
 			</div>
-		</main>
-	<footer>
+		</div>
+	</div>
+</main>
 
-			
+<footer>
 
-	</footer>
+</footer>
 
-
-		<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
-		<script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
-		<script type="text/javascript" src="js/prev.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-	</body>
+	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/prev.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
