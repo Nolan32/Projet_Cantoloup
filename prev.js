@@ -89,7 +89,7 @@ var situations = [{
 	genre : "porn.jpg",
 },
 {
-	situation :  "Julie a télécharger illégalement quelques musiques de son groupe préféré. Puis, son ordinateur se bloque et un message d’Hadopi apparaît: ‘Vous avez téléchargé illégalement, vous devez payer une amende de 350€ si vous voulez récupérer votre ordinateur’",
+	situation : "Julie a télécharger illégalement quelques musiques de son groupe préféré. Puis, son ordinateur se bloque et un message d’Hadopi apparaît: ‘Vous avez téléchargé illégalement, vous devez payer une amende de 350€ si vous voulez récupérer votre ordinateur’",
 	resA : "Julie doit payer tout de suite ! Elle veut garder son ordinateur qui est devenu inutilisable et ne voulais pas transgresser la loi.",
 	resB : "Julie se méfie quand même et explique son erreur à un adulte !",
 	response : "resB",
@@ -162,16 +162,7 @@ var situations = [{
 	genre : "cyberHarcelement.jpg",
 },
 {
-	situation: "Parce que bon élève Charles est le bouc émissaire de sa classe. Et un soir où il était dans sa chambre, il se rend compte que quelqu’un a posté des photos dégradantes de lui sur Internet. Le lendemain, tu vois tout la classe se moquer de lui.",
-	resA: "Tu as mal pour lui et même si tu ne l’apprécie pas trop tu préfères prévenir un adulte.",
-	resB: "C’est pas ton problème. A vraie dire, tu trouves les photos plutôt kiffantes.",
-	response: "resA",
-	ifResA: "Les cyberviolences n’ont pas de limite temporelle : elles peuvent s’exercer à toute heure du jour ou de la nuit et laissent des traces numériques (une photo publiée peut demeurer très longtemps sur Internet). L’auteur lui-même, une fois les agressions publiées sur la toile, ne peut maîtriser la diffusion des contenus.",
-	ifResB: "La diffusion des photos est devenu incontrôlable. Charles a pété le plombs et a commencé à manger de la craie pour calmer ses angoisses.",
-	genre : "cyberHarcelement.jpg"
-},
-{
-	situation: "Une pote à toi a été accusé d’avoir insulté vos camarades de classe sur Facebook, toi compris. Or, elle n’a plus accès à son compte.",
+	situation: "Une pote à toi a été accusé d’avoir insulté vos camarades de classe sur Facebook, toi y compris. Or, elle n’a plus accès à son compte.",
 	resA:  "Tu lui demandes des explications, ne la croit pas et l’envoie bouler.",
 	resB: "Tu lui demandes des explications et vas vérifier sa connexion Facebook avec elle.",
 	response: "resB",
@@ -180,12 +171,12 @@ var situations = [{
 	genre : "cyberHarcelement.jpg",
 },
 { 
-	situation: "Cela fait quelque temps que l’ambiance se dégrade au collège, il semble qu’une guerre a éclaté sur les réseaux sociaux. Bagarres, insultes et provocations font partie du quotidien.",
+	situation: "Cela fait quelque temps que l’ambiance se dégrade au collège, il semble qu’une guerre a éclatée sur les réseaux sociaux. Bagarres, insultes et provocations font partie du quotidien.",
 	resA: "T’es au courant tu reçois pleins de messages insultants et tu essaies de calmer le jeu comme tu peux.",
-	resB:   "T’es comme un fou...tu t’éclates à envenimer la situation. ",
+	resB:   "T’es comme un fou... Tu t’éclates à envenimer la situation. ",
 	response: "resA",
 	ifResA: "C’est un bon début, et savais-tu que 40% des élèves avouent avoir subi une agression en ligne et 85% des faits de harcèlement ont lieu dans le cadre d’un groupe. Le cyber-harcèlement est l’affaire de tout le monde.",
-	ifResB: "La situation a continué à s’empirer comme-suit: un allumé, une kalash et oups...t’es mort...",
+	ifResB: "La situation a continuée à s’empirer comme-suit: un allumé, une kalash et Oups... t’es mort...",
 	genre : "cyberHarcelement.jpg"
 },
 {

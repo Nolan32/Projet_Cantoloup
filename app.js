@@ -1,19 +1,20 @@
-console.log('Hello');
-
 var count=0;
-var Alea =Math.floor(Math.random()*situations.length);				
+var Alea = Math.floor(Math.random()*situations.length);
+
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
 	$('#situation').html(situations[Alea].situation);
 	$('#resA').html(situations[Alea].resA);
 	$('#resB').html(situations[Alea].resB);
 }
+
 function CreateButon(){
 	$('#CreateButon').append("<button class='btn waves-effect green darken-2 btn_redirect' id='redirection'>GOOGLE</button>");
 	$('#CreateButon').delegate('#redirection','click',function(){
 		window.location.href ='http://www.google.fr';
 	});
 }
+
 function reponsePreventionMessage(){
 
 	if ($("#radioBtn input").is(':checked')){
@@ -50,9 +51,6 @@ function reponsePreventionMessage(){
 		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez une réponse pour accéder à internet</div>');
 	}
 }
-	
-
-
 
 $(document).ready(function(){
 	GenererPreventionAlea();
