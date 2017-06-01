@@ -57,7 +57,7 @@ var situations = [{
 	resA:"Il télécharge sur internet une application formidable qui lui propose des gemmes illimités",
 	resB:"Il sait que les applications de ce genre sont malveillantes",
 	response:"resB",
-	ifResA: "Quel dommage le téléphone de Florian s’est éteint dès qu’il a lancer l’application sur son téléphone et lorsqu’il a allumé, des pinguoins se sont mit à danser sur son fond d’écran",
+	ifResA: "Quel dommage le téléphone de Florian s’est éteint dès qu’il a lancer l’application sur son téléphone et lorsqu’il a allumé, des pingouins se sont mit à danser sur son fond d’écran",
 	ifResB:"Il faut se doutait qu’une application de ce genre est créé par un hacker et que s’il offre son application, c’est qu’il y a un fond de malveillance par derrière",
 	genre : "arnaques.png"
 },
