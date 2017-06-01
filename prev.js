@@ -26,6 +26,7 @@ var situations = [{
 	resB: "Tu continus la communication. Après tout, ce type avait l’air sympa lors de la fête...",
 	response: "resA",
 	ifResA: "Si une personne que je ne connais pas et/ou mal, dans la vraie vie me demande des informations sur moi ou sur quelqu'un d’autre, un service, de l’argent, d’allumer la webcam, d’appeler un numéro de téléphone inconnu ou d’envoyer des photos, j’arrête tout de suite la communication, je me déconnecte et j’en parle immédiatement à mes parents.",
+	ifResB: "Dommage, ce “pote” est connu des services de polices pour des délits de cambriolages. Vu que tu lui as dit que tu parter voir de la famille ce week-end et que personnes sera chez toi… il est venu te rendre visite...et t’a chouré ta playstation ainsi que tout les ordis portables de la maison.",
 	genre : "../res/hack.jpg",
 	genreSrc : "https://pixabay.com/fr/hacker-attaque-masque-internet-1872291/",
 	redirect : "https://www.ssi.gouv.fr/particulier/precautions-elementaires/dix-regles-de-base/",
