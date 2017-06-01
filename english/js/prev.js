@@ -171,7 +171,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "Manon is attacked by the same bad person despite multiple warning of this person, Manon continued to speak badly to him.Dimitri annoyed by the words of Manon, launched his keyboard on the screen of his computer, the screen took fire with the little...",
 	ifResB: "You are responsible for what you publish online then moderate your comments ...Do not do to others what you would not want them to do to you.",
-	genre : "../../res/cyberHarcelement.jpg",,
+	genre : "../../res/cyberHarcelement.jpg",
 },
 {
 	situation: "A friend of yours was accused of insulting your classmates and you on Facebook. But she has no longer access to her account.",
@@ -225,7 +225,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "Kelly played the game, until she cut her camera off and threatened Martin to broadcast this video on the Internet, social networks ... Martin did not have the money to give her the sum she wanted, the Video was broadcast and he was forced to stay in his home. Today, he’s called ‘the man to the billions of cats’.",
 	ifResB: "Congratulation, he avoided trouble! The offense of Sextorsion consists in extortion via the Internet of sexual or monetary favors. It usually doubles as the blackmail to the webcam.",
-	genre: "../../res/cyberHarcelement.jpg"
+	genre: "../../res/cyberHarcelement.jpg",
 	genre:"../../res/hack.jpg",
 },
 ];

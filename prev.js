@@ -5,7 +5,7 @@ var situations = [{
 	response : "resB",
 	ifResA : "Dommage, cet article est faux! Au moins, elle aurait fait rigoler ses ami(e)s !",
 	ifResB : "Et oui, toutes les informations sur internet ne sont pas à prendre au pied de la lettre ! Fais toi ton propre avis !",
-	genre : "../../res/recherche.png",
+	genre : "../res/recherche.png",
 	genreSrc : "https://pixabay.com/fr/moteur-de-recherche-76519/",
 },
 {
@@ -15,7 +15,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "C’est con...ton “ami” était un serial killer... tu est mort dans d’horribles souffrances après avoir été séquestré pendant des semaines...",
 	ifResB: "Fait très attention aux rendez-vous que tu prends sur Internet ! Tu peux te retrouver dans de très mauvaises situations (violences, vols, viols…), même si ce sont des 'ami(e)s' qui te proposent ce rendez-vous. Alors, parles-en à tes parents et ils te diront si tu peux y aller où s’ils viendront avec toi la première fois.",
-	genre : "../../res/reseauSociaux.jpg",
+	genre : "../res/reseauSociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
 },
 {
@@ -24,7 +24,7 @@ var situations = [{
 	resB: "Tu continus la communication. Après tout, ce type avait l’air sympa lors de la fête...",
 	response: "resA",
 	ifResA: "Si une personne que je ne connais pas et/ou mal, dans la vraie vie me demande des informations sur moi ou sur quelqu'un d’autre, un service, de l’argent, d’allumer la webcam, d’appeler un numéro de téléphone inconnu ou d’envoyer des photos, j’arrête tout de suite la communication, je me déconnecte et j’en parle immédiatement à mes parents.",
-	genre : "../../res/hack.jpg",
+	genre : "../res/hack.jpg",
 	genreSrc : "https://pixabay.com/fr/hacker-attaque-masque-internet-1872291/",
 },
 {
@@ -34,7 +34,7 @@ var situations = [{
 	response:"resB",
 	ifResA:"Oh bah dit donc, le téléphone s’est brisé lorsqu’elle a mit une partie de son poids sur le téléphone,c’est vraiment dommage elle va devoir se racheter un nouveau téléphone ",
 	ifResB:"Toutes les vidéo sur youtube ou autres sites sur internet ne sont pas forcément vraies ! Il faut avoir un regard critique sur ce que l’on voit.",
-	genre: "../../res/recherche.png",
+	genre: "../res/recherche.png",
 	genreSrc : "https://pixabay.com/fr/moteur-de-recherche-76519/",
 },
 {
@@ -44,7 +44,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "La diffusion Internet est incontrôlable. Même en prenant le plus de précautions possible. Une personne mal intentionnée peut retourner tes arguments contre toi et utiliser tes photos/vidéos à ton détriment et au détriment des personnes que tu aimes.",
 	ifResB:  "C’est bien que tu réfléchisses avant de publier quelque chose. Sur Internet tout le monde peut voir ce que tu met en ligne (photo, infos, opinions). Ne publie pas de photos gênantes de tes amis ou toi-même car leur diffusion est incontrôlable. Ton blog ou ton compte Facebook ne sont pas TON JOURNAL INTIME !",
-	genre : "../../res/reseausociaux.jpg"
+	genre : "../res/reseausociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
 },
 {
@@ -54,7 +54,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "Un hacker passant par là...a récupéré le mot de passe et l’adresse email que tu as utilisé pour ton blog. Or, comme tu as utilisé bêtement les mêmes partout, toutes tes infos persos ont été volées et ton ordi est HS.",
 	ifResB: "Tu créais plusieurs adresses électroniques qui sont différentes en fonction de tes activités : personnelles, professionnelles, associatives, ou sociales. Et tu ne communiques pas tes mots de passe !Et les choisis un peu compliqués (Ps: N'utilise jamais ta date de naissance ou ton nom/surnom).",
-	genre : "../../res/reseausociaux.jpg",
+	genre : "../res/reseausociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
 },
 {
@@ -64,7 +64,7 @@ var situations = [{
 	response:"resB",
 	ifResA: "Quel dommage le téléphone de Florian s’est éteint dès qu’il a lancer l’application sur son téléphone et lorsqu’il a allumé, des pingouins se sont mit à danser sur son fond d’écran",
 	ifResB:"Il faut se douter qu’une application de ce genre est créé par un hacker et que s’il offre son application, c’est qu’il y a un fond de malveillance par derrière",
-	genre : "../../res/arnaques.png",
+	genre : "../res/arnaques.png",
 	genreSrc : "https://pixabay.com/fr/hacker-piratage-la-cyber-s%C3%A9curit%C3%A9-1944673/"
 },
 {
@@ -74,7 +74,7 @@ var situations = [{
 	response : "resB",
 	ifResA:"Dommage pour les parents d’Arthur, il vient de se faire attraper pour avoir télécharger ce film et maintenant ils doivent payer une amende de 1500€.Les parents d’Arthur sont contents de payer un film 1500€ au lieu de 20€ !",
 	ifResB:"Arthur évite d’une part des problèmes pour ces parents et sauve son ordinateur d’une mort certaine.", 
-	genre : "../../res/droit.png",
+	genre : "../res/droit.png",
 	genreSrc : "https://cdn.pixabay.com/photo/2017/02/16/17/47/icon-2071965__340.png",
 },
 {
@@ -84,7 +84,7 @@ var situations = [{
 	response: "resA",
 	ifResA: "La pornographie a un impact indéniable sur les violences faites aux femmes : la banalisation et la légitimation de rapports violents.",
 	ifResB: "NE CÈDE JAMAIS À UN CHANTAGE SEXUEL ! En plus de te sentir humilié, ce genre d’acte peut être puni par la loi." ,
-	genre : "../../res/porn.jpeg", 
+	genre : "../res/porn.jpeg", 
 	genreSrc : "https://static.pexels.com/photos/209680/pexels-photo-209680.jpeg",
 },
 {
@@ -94,7 +94,7 @@ var situations = [{
 	response : "resA",
 	ifResA : "Tu peux en parler avec tes parents, ou même les éducateurs. Il faut choisir le bon moment et le bon endroit pour pouvoir parler librement.",
 	ifResB : "Le jour où tu voudras apprendre à conduire...regarder en boucle toute la série des « TAXI », 1, 2, 3 et 4 ne t’aidera pas vraiment pour passer ton permis de conduire !Eh bien la pornographie, c’est pareil, c’est de la fiction !",
-	genre : "../../res/porn.jpeg",
+	genre : "../res/porn.jpeg",
 	genreSrc : "https://static.pexels.com/photos/209680/pexels-photo-209680.jpeg",
 },
 {
@@ -104,7 +104,7 @@ var situations = [{
 	response : "resB",
 	ifResA : "Dommage, ce message d’Hadopi était un hacking, une personne malintentionnée a pris le contrôle de ton ordinateur et de tes données pour te soutirer de l’argent.",
 	ifResB : "Bien joué, ce message d’Hadopi était un hacking et il voulait lui soutirer de l’argent.",
-	genre : "../../res/arnaques.png",
+	genre : "../res/arnaques.png",
 	genreSrc : "https://pixabay.com/fr/hacker-piratage-la-cyber-s%C3%A9curit%C3%A9-1944673/",
 },
 {
@@ -114,7 +114,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "Elle clique sur le lien. C’est con...le site était un faux, un hacker lui a vidé son compte...mourant de faim la famille n’a pas eu d’autre choix que de bouffer le chien et le petit dernier...",
 	ifResB: "Soyez attentif lorsque votre service de banque en ligne est ouverte. Vous devez savoir quand et comment le système vous demandera de vous identifier, que ce soit lors de la connexion ou au moment de valider une transaction. Si vous voyez des demandes d'authentification à des moments inhabituels, n'entrez pas vos données et contactez votre banque.",
-	genre : "../../res/arnaques.png",
+	genre : "../res/arnaques.png",
 	genreSrc : "https://pixabay.com/fr/hacker-piratage-la-cyber-s%C3%A9curit%C3%A9-1944673/",
 },
 {
@@ -124,7 +124,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "Les fausses rumeurs sont incontrôlable et se propagent vite. Sous la pression Nicola a fait une tentative de suicide.", 
 	ifResB: "Tu as bien fait. Le cyber-harcèlement est puni par la loi, au même titre que le harcèlement classique. Les premiers responsables en cas de harcèlement en ligne sont les auteurs des propos en cause. Un intermédiaire ne sera responsable que si : il a eu connaissance des messages publiées, et s'il n'a pas agi rapidement pour faire retirer ses messages dès qu'il en a eu connaissance.(www.service-public.fr)",
-	genre : "../../res/cyberHarcelement.jpg",
+	genre : "../res/cyberHarcelement.jpg",
 	genreSrc : "https://cdn.pixabay.com/photo/2016/08/25/07/33/face-1618921__340.jpg",
 },
 {
@@ -134,7 +134,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "L’un des deux a l’idée d’aller chercher des jeux sur Google. Malheureusement, ils voient du contenu pronographique. Sous le choc, l’un des deux meurt d’arrêt cardiaque et l’autre se défenestre s'empalant sur la balustrade du voisin.",
 	ifResB: "Ne laissez pas les jeunes enfants seuls sur Internet: 90% des enfants ont été au moins une fois confrontés à des contenus inadaptés. Signalez les images et propos pédopornographiques sur le site http://internet-signalement.gouv.fr qui est géré par la police. Plusieurs millions d’images pédopornographiques circulent en permanence sur le Web.",
-	genre : "../../res/controlParental.jpeg",
+	genre : "../res/controlParental.jpeg",
 	genreSrc : "https://stocksnap.io/photo/C2QNLL8FRY",
 },
 {
@@ -144,7 +144,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "A force de passer du temps sur Internet, un des enfant à eu le cerveau liquéfié. L’autre a fait une crise d’épilepsie et a commencé à voir des hélicopteres en liège partout. Et l’autre s’est perdu dans les toilettes.",
 	ifResB: "Limitez le temps consacré aux écrans: 45% des enfants de 6 à 11 ans consacrent plus de la moitié de leur temps de loisirs aux écrans: Tv, Internet, Jeux vidéos… ce qui peut nuire à la concentration scolaire.",
-	genre : "../../res/controlParental.jpeg",
+	genre : "../res/controlParental.jpeg",
 	genreSrc : "https://stocksnap.io/photo/C2QNLL8FRY",
 },
 {
@@ -154,7 +154,7 @@ var situations = [{
 	response : "resB",
 	ifResA : "Grâce aux informations entrées dans le formulaire, le compte en banque de Mona a été vidé et son identité a été volée. Le voleur a aussi transmit le mail à tous ses contacts et tente d’arnaquer avec ses proches.",
 	ifResB : "La cousine de Mona n’a jamais rien gagnée ! Elles se rendent compte alors que ce n'était qu’une arnaque ! Faites Attention !",
-	genre : "../../res/hack.jpg",
+	genre : "../res/hack.jpg",
 	genreSrc : "https://pixabay.com/fr/hacker-attaque-masque-internet-1872291/",
 },
 {
@@ -164,7 +164,7 @@ var situations = [{
 	response: "resA",
 	ifResA: "Dans la lutte contre le terrorisme et la radicalisation, le gouvernement a ouvert deux comptes « Stop Djihadisme » sur Twitter et sur Facebook. Les réseaux sociaux constituent un outil incontournable, en relayant les messages tu contribueras à affaiblir la propagande.",
 	ifResB: "Ton pote a fait un gros kebab à la sortie de l’école...il s’est fait exploser. Des dizaines de gamins sont morts et d’autres ont été bléssés. D'ailleurs, un doigt n’a toujours pas été identifié...",
-	genre : "../../res/radicalisation.png",
+	genre : "../res/radicalisation.png",
 	genreSrc : "https://pixabay.com/fr/bombe-dangereux-fumer-explosion-38216/",
 },
 {
@@ -174,7 +174,7 @@ var situations = [{
 	response: "resA",
 	ifResA: "Les cyberviolences n’ont pas de limite temporelle : elles peuvent s’exercer à toute heure du jour ou de la nuit et laissent des traces numériques (une photo publiée peut demeurer très longtemps sur Internet). L’auteur lui-même, une fois les agressions publiées sur la toile, ne peut maîtriser la diffusion des contenus.",
 	ifResB: "La diffusion des photos est devenu incontrôlable. Charles a pété le plombs et a commencé à manger de la craie pour calmer ses angoisses.",
-	genre : "../../res/cyberHarcelement.jpg"
+	genre : "../res/cyberHarcelement.jpg",
 	genreSrc : "https://cdn.pixabay.com/photo/2016/08/25/07/33/face-1618921__340.jpg",
 },
 {
@@ -184,7 +184,7 @@ var situations = [{
 	response: "resB",
 	ifResA : "Manon s’est attaquée à la mauvaise personne.Malgré les multiples avertissements  de cette persone, Manon a continué à mal lui parler.Dimitri enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
 	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
-	genre: "../../res/cyberHarcelement.jpg",
+	genre: "../res/cyberHarcelement.jpg",
 	genreSrc : "https://cdn.pixabay.com/photo/2016/08/25/07/33/face-1618921__340.jpg",
 },
 {
@@ -194,7 +194,7 @@ var situations = [{
 	response: "resB",
 	ifResA:  "Son compte a été piraté. Elle a dû en faire part à ses parents qui ont pris les mesures nécessaires. Par contre, elle a perdu confiance en toi... ",
 	ifResB: "En allant vérifier sa connexion Facebook tu te rends compte que quelqu’un a piraté son compte à des fins malveillantes. Puis vous allez avertir un adulte.",
-	genre : "../../res/cyberHarcelement.jpg",
+	genre : "../res/cyberHarcelement.jpg",
 	genreSrc : "https://cdn.pixabay.com/photo/2016/08/25/07/33/face-1618921__340.jpg",
 },
 { 
@@ -204,7 +204,7 @@ var situations = [{
 	response: "resA",
 	ifResA: "C’est un bon début, et savais-tu que 40% des élèves avouent avoir subi une agression en ligne et 85% des faits de harcèlement ont lieu dans le cadre d’un groupe. Le cyber-harcèlement est l’affaire de tout le monde.",
 	ifResB: "La situation a continué à s’empirer comme-suit: un allumé, une kalash et Oups... t’es mort...",
-	genre : "../../res/cyberHarcelement.jpg",
+	genre : "../res/cyberHarcelement.jpg",
 	genreSrc : "https://cdn.pixabay.com/photo/2016/08/25/07/33/face-1618921__340.jpg",
 },
 {
@@ -214,7 +214,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "Un de ses copains ne savait pas pour la photo et a porté plainte pour droit d’image.Résultat Marc a récolté de 45000€ d’amende et d'un an de prison.C’est vraiment dommage, il a rencontré José en prison et c’est pris un coup de lavabo et a fini complètement défiguré, sans dent.",
 	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
-	genre: "../../res/droit.png",
+	genre: "../res/droit.png",
 	genreSrc : "https://cdn.pixabay.com/photo/2017/02/16/17/47/icon-2071965__340.png",
 },
 {
@@ -224,7 +224,7 @@ var situations = [{
 	response : "resB",
 	ifResA : "On vient de voler l’identité d’Horace, sans qu’il ne le sache ! Le hacker a récupéré ses données et se fait passer pour lui auprès de ses amis. En retournant en cours le lundi matin, il s’est rendu compte que 4 de ses amis avaient été arnaqués par cette personne.",
 	ifResB : "Vérifiez que votre navigateur se connecte à des sites sécurisés, qui cryptent les informations transmises entre le client et le site internet. Les sites qui utilisent ce protocole commencent par  'https:// ' et/ou un cadenas à côté de l’url. Vérifiez aussi l’adresse du site ou l’orthographe. Ce sont souvent des signes.",
-	genre: "../../res/reseauSociaux.jpg",
+	genre: "../res/reseauSociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
 },
 {
@@ -234,7 +234,7 @@ var situations = [{
 	response : "resB",
 	ifResA : "Kelly a joué le jeu, jusqu'à ce qu’elle coupe sa caméra et menace Martin de diffuser cette vidéo sur Internet, les réseaux sociaux...Martin n’ayant pas les moyens de lui donner la somme qu’elle désirait, la vidéo fut diffusée et il s’est obligé à rester enfermé chez lui. Aujourd’hui, on l’appelle l’homme aux milliards de chats.",
 	ifResB : "Bravo, il a évité les ennuis! Le délit de Sextorsion consiste en l'extorsion via Internet de faveurs sexuelles ou monétaires. Il se double le plus souvent de celui de chantage à la webcam.",
-	genre : "../../res/cyberHarcelement.jpg",
+	genre : "../res/cyberHarcelement.jpg",
 	genreSrc : "https://cdn.pixabay.com/photo/2016/08/25/07/33/face-1618921__340.jpg",
 },
 {
@@ -244,7 +244,7 @@ var situations = [{
 	response : "resA",
 	ifResA : "Grâce à Internet et aux réseaux sociaux, l’ami de Frank n’a fait que lire les informations qu’il y a sur Internet ! Alors, vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
-	genre : "../../res/reseauSociaux.jpg"
+	genre : "../res/reseauSociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
 },
 ];
