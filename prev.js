@@ -41,7 +41,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "La diffusion Internet est incontrôlable. Même en prenant le plus de précautions possible. Une personne mal intentionnée peut retourner tes arguments contre toi et utiliser tes photos/vidéos à ton détriment et au détriment des personnes que tu aimes.",
 	ifResB:  "C’est bien que tu réfléchisses avant de publier quelque chose. Sur Internet tout le monde peut voir ce que tu met en ligne (photo, infos, opinions). Ne publie pas de photos gênantes de tes amis ou toi-même car leur diffusion est incontrôlable. Ton blog ou ton compte Facebook ne sont pas TON JOURNAL INTIME !",
-	genre : "droit.png"
+	genre : "reseausociaux.jpg"
 },
 {
 	situation: "Tu souhaites t’inscrire sur les réseaux sociaux. Pour cela tu dois remplir des formulaires.",
@@ -50,7 +50,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "Un hacker passant par là… a récupéré le mot de passe et l’adresse email que tu as utilisé pour ton blog. Or, comme tu as utilisé bêtement les mêmes partout, toutes tes infos persos ont étée volées et ton ordi est HS.",
 	ifResB: "Tu créais plusieurs adresses électroniques qui sont différentes en fonction de tes activités : personnelles, professionnelles, associatives, ou sociales. Et tu, ne communiques pas tes mots de passe ! Et les choisis un peu compliqués (Ps: N'utilise jamais ta date de naissance ou ton nom/surnom).",
-	genre : "droit.png"
+	genre : "reseausociaux.jpg"
 },
 {
 	situation: "Florian joue à un jeu sur son téléphone mobile et souhaite avoir gratuitement des gemmes qui normalement sont payantes en euro.",
@@ -114,7 +114,6 @@ var situations = [{
 	ifResA: "Les fausses rumeurs sont incontrôlable et se propagent vite. Sous la pression Nicola a fait une tentative de suicide.", 
 	ifResB: "Tu as bien fait. Le cyber-harcèlement est puni par la loi, au même titre que le harcèlement classique. Les premiers responsables en cas de harcèlement en ligne sont les auteurs des propos en cause. Un intermédiaire ne sera responsable que si : il a eu connaissance des messages publiées, et s'il n'a pas agi rapidement pour faire retirer ses messages dès qu'il en a eu connaissance.(www.service-public.fr)",
 	genre : "cyberHarcelement.jpg",
-
 },
 {
 	situation: "Un père de famille laisse sa tablette entre les mains de ses enfants sans surveillance particulière.",
@@ -162,6 +161,15 @@ var situations = [{
 	genre : "cyberHarcelement.jpg",
 },
 {
+	situation: "Manon adore jouer a ‘league des méchants’ mais elle n’aime pas les personnes qui y jouent avec elle car ils insultent sans raison tout et tout le monde.",
+	resA : "Autant qu’elle fasse pareil, elle commence à mal parler à une personne sur le jeu.",
+	resB : "Elle reste calme et coupe le chat.",
+	response: "resB",
+	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiple avertissement  elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
+	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
+	genre: "cyberHarcelement.jpg"
+},
+{
 	situation: "Une pote à toi a été accusé d’avoir insulté vos camarades de classe sur Facebook, toi y compris. Or, elle n’a plus accès à son compte.",
 	resA:  "Tu lui demandes des explications, ne la croit pas et l’envoie bouler.",
 	resB: "Tu lui demandes des explications et vas vérifier sa connexion Facebook avec elle.",
@@ -178,6 +186,24 @@ var situations = [{
 	ifResA: "C’est un bon début, et savais-tu que 40% des élèves avouent avoir subi une agression en ligne et 85% des faits de harcèlement ont lieu dans le cadre d’un groupe. Le cyber-harcèlement est l’affaire de tout le monde.",
 	ifResB: "La situation a continuée à s’empirer comme-suit: un allumé, une kalash et Oups... t’es mort...",
 	genre : "cyberHarcelement.jpg"
+},
+{
+	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
+	resA: "Pas de soucis après tout ils ne s'opposeront pas à la diffusion de l’image.",
+	resB: "Marc va voir ces amis et demande si il peut diffuser la photo.",
+	response: "resB",
+	ifResA: "Un de ces copains ne savait pas pour la photo et a porté plainte pour droit d’image résultat Marc à récolter de 45000€ d’amende + 1 un an de prison ,c’est vraiment dommage il a rencontré josé en prison et c’est prit un coup de lavabo et a fini complètement défiguré,sans dent.",
+	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
+	genre: "droit.png",
+},
+{
+	situation :"Horace veut s’inscrire sur Twitter. Il cherche sur google, et sélectionne le premier site 'http://www.twiter.com'.",
+	resA : "Le site s’affiche, Horace remplis le formulaire et s’inscrit.",
+	resB : "Le site s’affiche mais en relisant, il se rend compte d’une faute dans l'écriture de l’adresse.",
+	response : "resB",
+	ifResA : "On vient de voler l’identité d’Horace, sans qu’il ne le sache ! Le hacker à récupérer ses données et se fait passer pour lui auprès de ses amis. En retournant en cours le lundi matin, il s’est rendu compte que 4 de ses amis avait été arnaquer par cette personne.",
+	ifResB : "Vérifiez que votre navigateur se connecte à des sites sécurisés, qui cryptent les informations transmises entre le client et le site internet. Les sites qui utilisent ce protocole commencent par  'https:// ' et/ou un cadenas à côté de l’url. Vérifiez aussi l’adresse du site ou l’orthographe. Ce sont souvent des signes.",
+	genre: "reseausociaux.jpg"
 },
 {
 	situation : "Martin et Kelly se sont rencontrés sur internet. Après de nombreuses discussions passionnées, ils décident de se faire un chat vidéo. Quelques minutes après avoir commencé, Kelly propose à Martin de se déshabiller et elle aussi.",
@@ -197,34 +223,4 @@ var situations = [{
 	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	genre : "reseausociaux.jpg",
 },
-{
-	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
-	resA: "Pas de soucis après tout ils ne s'opposeront pas à la diffusion de l’image.",
-	resB: "Marc va voir ces amis et demande si il peut diffuser la photo.",
-	response: "resB",
-	ifResA: "Un de ces copains ne savait pas pour la photo et a porté plainte pour droit d’image résultat Marc à récolter de 45000€ d’amende + 1 un an de prison ,c’est vraiment dommage il a rencontré josé en prison et c’est prit un coup de lavabo et a fini complètement défiguré,sans dent.",
-	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
-	genre: "droit.png",
-},
-{
-
-	situation: "Manon adore jouer a ‘league des méchants’ mais elle n’aime pas les personnes qui y jouent avec elle car ils insultent sans raison tout et tout le monde.",
-	resA : "Autant qu’elle fasse pareil, elle commence à mal parler à une personne sur le jeu.",
-	resB : "Elle reste calme et coupe le chat.",
-	response: "resB",
-	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiple avertissement  elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
-	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
-	genre: "cyberHarcelement.jpg"
-},
-
-
-{
-	situation :"Horace veut s’inscrire sur Twitter. Il cherche sur google, et sélectionne le premier site 'http://www.twiter.com'.",
-	resA : "Le site s’affiche, Horace remplis le formulaire et s’inscrit.",
-	resB : "Le site s’affiche mais en relisant, il se rend compte d’une faute dans l'écriture de l’adresse.",
-	response : "resB",
-	ifResA : "On vient de voler l’identité d’Horace, sans qu’il ne le sache ! Le hacker à récupérer ses données et se fait passer pour lui auprès de ses amis. En retournant en cours le lundi matin, il s’est rendu compte que 4 de ses amis avait été arnaquer par cette personne.",
-	ifResB : "Vérifiez que votre navigateur se connecte à des sites sécurisés, qui cryptent les informations transmises entre le client et le site internet. Les sites qui utilisent ce protocole commencent par  'https:// ' et/ou un cadenas à côté de l’url. Vérifiez aussi l’adresse du site ou l’orthographe. Ce sont souvent des signes.",
-	genre: "reseausociaux.jpg"
-}
 ];

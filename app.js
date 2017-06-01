@@ -54,7 +54,7 @@ function reponsePreventionMessage(){
 
 $(document).ready(function(){
 	GenererPreventionAlea();
-	$("#validate").click(function() {
+	$("#radioBtn").click(function() {
 		reponsePreventionMessage();
 		count ++;
 	});
