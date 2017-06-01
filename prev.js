@@ -41,7 +41,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "La diffusion Internet est incontrôlable. Même en prenant le plus de précautions possible. Une personne mal intentionnée peut retourner tes arguments contre toi et utiliser tes photos/vidéos à ton détriment et au détriment des personnes que tu aimes.",
 	ifResB:  "C’est bien que tu réfléchisses avant de publier quelque chose. Sur Internet tout le monde peut voir ce que tu met en ligne (photo, infos, opinions). Ne publie pas de photos gênantes de tes amis ou toi-même car leur diffusion est incontrôlable. Ton blog ou ton compte Facebook ne sont pas TON JOURNAL INTIME !",
-	genre : "droit.jpg"
+	genre : "reseausociaux.jpg"
 },
 {
 	situation: "Tu souhaites t’inscrire sur les réseaux sociaux. Pour cela tu dois remplir des formulaires.",
@@ -50,7 +50,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "Un hacker passant par là… a récupéré le mot de passe et l’adresse email que tu as utilisé pour ton blog. Or, comme tu as utilisé bêtement les mêmes partout, toutes tes infos persos ont étée volées et ton ordi est HS.",
 	ifResB: "Tu créais plusieurs adresses électroniques qui sont différentes en fonction de tes activités : personnelles, professionnelles, associatives, ou sociales. Et tu, ne communiques pas tes mots de passe ! Et les choisis un peu compliqués (Ps: N'utilise jamais ta date de naissance ou ton nom/surnom).",
-	genre : "droit.jpg"
+	genre : "reseausociaux.jpg"
 },
 {
 	situation: "Florian joue à un jeu sur son téléphone mobile et souhaite avoir gratuitement des gemmes qui normalement sont payantes en euro.",
@@ -77,7 +77,7 @@ var situations = [{
 	response: "resA",
 	ifResA: "La pornographie a un impact indéniable sur les violences faites aux femmes : la banalisation et la légitimation de rapports violents.",
 	ifResB: "NE CÈDE JAMAIS À UN CHANTAGE SEXUEL ! En plus de te sentir humilié, ce genre d’acte peut être puni par la loi." ,
-	genre : "porn.jpg",
+	genre : "porn.jpeg",
 },
 {
 	situation :  "Julien a appris que le sexe sert à faire des bébés et veux en savoir plus.",
@@ -86,7 +86,7 @@ var situations = [{
 	response : "resA",
 	ifResA : "Tu peux en parler avec tes parents, ou même les éducateurs. Il faut choisir le bon moment et le bon endroit pour pouvoir parler librement.",
 	ifResB : "Le jour où tu voudras apprendre à conduire...  regarder en boucle toute la série des  « TAXI », 1, 2, 3 et 4  ne t’aidera pas vraiment pour passer ton permis de conduire ! Eh bien la pornographie, c’est pareil, c’est de la fiction !",
-	genre : "porn.jpg",
+	genre : "porn.jpeg",
 },
 {
 	situation : "Julie a télécharger illégalement quelques musiques de son groupe préféré. Puis, son ordinateur se bloque et un message d’Hadopi apparaît: ‘Vous avez téléchargé illégalement, vous devez payer une amende de 350€ si vous voulez récupérer votre ordinateur’",
