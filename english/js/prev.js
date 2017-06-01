@@ -5,7 +5,7 @@ var situations =[{
 	response : "resB",
 	ifResA : "Too bad, this article is false! At least, she made her friends laugh",
 	ifResB : "Not all the information on the Internet is not to be taken literally! Make your own opinion",
-	genre : "../../res/recherche.png"
+	genre : "../../res/recherche.png",
 },
 {
 	situation: "A friend of Facebook, comes in the Gers in vacancy and invites you to come to spend time with him. You trust him(her) or not?",
@@ -23,7 +23,7 @@ var situations =[{
 	response: "resA",
 	ifResA: "If a person whom I do not know and/or badly in real life asks informations about me or about somebody else, a service, money, to light the webcam, to call an unknown phone number or to send photos, I stop immediately the communication, I disconnect and I speak about it to my parents.",
 	ifResB: "Too bad, this 'friend' is known to police services for burglaries. Unfortunately, you told him that you will go see your family during the weekend and that nobody will be at home … he came to visit you ... and stole you your playstation as well as all the portable computers of your family.",
-	genre : "../../res/hack.jpg",
+	genre : "../../res/hack.jpg"
 },
 {
 	situation:"Josiane has just seen on YouTube a video of a person who has invented an application which allows the smartphone to weigh big volume (for example, a person).",
@@ -76,7 +76,7 @@ var situations =[{
 	resB: "In love, she yields to her demands unwillingly.",
 	response: "resA",
 	ifResA: "Pornography has an undeniable impact on violence against women: the banalization and legitimization of violent relationships.",
-	ifResB: "NEVER GIVE UP AGAINST SEXUAL CHANTAGE! In addition to feeling humiliated, this kind of act can be punished by law." ,
+	ifResB: "NEVER GIVE UP AGAINST SEXUAL CHANTAGE! In addition to feeling humiliated, this kind of act can be punished by law.",
 	genre : "../../res/porn.jpeg",
 },
 {
@@ -89,13 +89,13 @@ var situations =[{
 	genre : "../../res/porn.jpeg",
 },
 {
-	situation :  "Julie has illegally download some music from her favorite band. Then a Hadopi's message appears on the screen: 'You downloaded illegally, you have to pay a forfeit of 350 € if you want to recover your computer",
+	situation :  "Julie has illegally downloaded some music from her favorite band. Then a Hadopi's message appears on the screen: 'You downloaded illegally, you have to pay a forfeit of 350 € if you want to recover your computer",
 	resA : "Julie must pay right away! She wants to keep her computer, which became unusable, and she didn't want break the law.",
 	resB : "Julie is worried and explains her mistake to an adult!",
 	response : "resB",
 	ifResA : "Too bad, this Hadopi message was a hacking, a badly-minded person took control of her computer and her data to get her money.",
 	ifResB : "Well played, this Hadopi message was a hacking and they wanted to get her money.",
-	genre : "../../res/arnaques.png",
+	genre : "../../res/arnaques.png"
 },
 {
 	situation: "A mother receives an SMS from her bank with a link to the website for updates.", 
@@ -104,7 +104,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "She clicks on the link. It is stupid ... the site was a fake, a hacker emptied her account ... dying of hunger the family had no choice but to eat the dog and the last child ...",
 	ifResB: "Be careful when your online banking service is open. You need to know when and how the system will ask you to log in, either at login or when committing a transaction. If you see requests for authentication at unusual times, do not enter your data and contact your bank.",
-	genre : "../../res/arnaques.png",
+	genre : "../../res/arnaques.png"
 },
 {
 	situation: "In middle school, a rather violent incident broke out between Nicolas and your friend Damien. Apparently, Damien was angry with Nicholas and he wants to take revenge on him. He wants to ruin his life on the Internet.",
@@ -113,7 +113,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "False rumors have uncontrollably spread. Under pressure Nicolas made a suicide attempt.", 
 	ifResB: "You did well. Cyber-bullying is punishable by law, as is conventional harassment. Those responsible for online harassment are the perpetrators. An intermediary will only be responsible if: he or she is aware of the messages published, and if he / she has not acted quickly to have these messages removed as soon as possible (Www.service-public.fr).",
-	genre : "../../res/cyberHarcelement.jpg",
+	genre : "../../res/cyberHarcelement.jpg"
  
 },
 {
@@ -123,7 +123,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "One of the two children has the idea to search for games on Google. Unfortunately, they see pornographic content. Under shock, one of the two dies of cardiac arrest and the other one throw himself out of the window, impaling himself on the balustrade of the neighbor.",
 	ifResB: "Do not leave young children alone on the Internet: 90% of children have been at least once time confronted with unsuitable content. Report images and child pornography on the site http://internet-signalement.gouv.fr which is managed by the police. Several million child pornographic images circulate continuously on the Web.",
-	genre : "../../res/controlParental.jpeg",
+	genre : "../../res/controlParental.jpeg"
 },
 
 {
@@ -171,7 +171,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "Manon is attacked by the same bad person despite multiple warning of this person, Manon continued to speak badly to him.Dimitri annoyed by the words of Manon, launched his keyboard on the screen of his computer, the screen took fire with the little...",
 	ifResB: "You are responsible for what you publish online then moderate your comments ...Do not do to others what you would not want them to do to you.",
-	genre :"../../res/cyberHarcelement.jpg",
+	genre : "../../res/cyberHarcelement.jpg",
 },
 {
 	situation: "A friend of yours was accused of insulting your classmates and you on Facebook. But she has no longer access to her account.",
@@ -199,7 +199,6 @@ var situations =[{
 	ifResA: "One of these friend did not know for the photo and filed a complaint for image right. Marc has been condemned to a forfeit of 45,000€ and a year in jail.It's really a shame, he met José in jail and he tooks a washbasin stroke in the face and ended up completely disfigured, without any tooth.",
 	ifResB: "When you want to publish a photo always ask for the agreement of all the people in the picture.It can save you from the troubles of the right of image.",
 	genre: "../../res/droit.png",
-
 },
 {
 	situation: "Horace wants to sign up on Twitter. He searches on google, and selects the first site 'http://www.twiter.com'.",
@@ -208,6 +207,25 @@ var situations =[{
 	response: "resB",
 	ifResA: "Someone just steales the identity of Horace, without his knowing it!The hacker retrieves his data and pretends to be his friend. Returning on Monday morning, he realized that 4 of his friends had been ripped off by that person.",
 	ifResB: "Make sure your browser connects to secure sites that encrypt the information transmitted between the client and the website. Sites that use this protocol start with 'https: //' and / or a padlock next to the url. Also check the site address or spelling. These are often signs.",
+	genre: "../../res/hack.jpg"
+},
+{
+	situation: "Frank meets a middle school’s friend. He has not seen him for several years and yet, his friend is aware of all his life, with many details like the place of his marriage or what he did for his 25 years ...",
+	resA: "Shocked, Frank seeks to understand how his friend knows all about this.",
+	resB: "Delighted to see that his friend had heard from him, he told her the details he missed.",
+	response: "resA",
+	ifResA: "Thanks to internet and social networks, Frank's friend read all the informations on the internet! So, check your tracks, do not hesitate to type your name in a search engine to see what information is available on you.",
+	ifResB: "Ask questions, and check your tracks, do not hesitate to type your name in a search engine to see what information is available on you.",
+	genre: "../../res/reseauSociaux.jpg"
+},
+{
+	situation: "Martin and Kelly met on the Internet. After many passionate discussions, they decide to make a video chat. A few minutes after starting, Kelly proposes to Martin that they  both get undressed.",
+	resA: "Martin accepts! They have known each other for 2 months and they communicate by phone. Plus, it's cool!",
+	resB: "Martin refuses! He does not want to take risks, even if he really wants it!",
+	response: "resB",
+	ifResA: "Kelly played the game, until she cut her camera off and threatened Martin to broadcast this video on the Internet, social networks ... Martin did not have the money to give her the sum she wanted, the Video was broadcast and he was forced to stay in his home. Today, he’s called ‘the man to the billions of cats’.",
+	ifResB: "Congratulation, he avoided trouble! The offense of Sextorsion consists in extortion via the Internet of sexual or monetary favors. It usually doubles as the blackmail to the webcam.",
+	genre: "../../res/cyberHarcelement.jpg",
 	genre:"../../res/hack.jpg",
 },
 ];
