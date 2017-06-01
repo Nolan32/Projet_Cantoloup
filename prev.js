@@ -162,6 +162,15 @@ var situations = [{
 	genre : "cyberHarcelement.jpg",
 },
 {
+	situation: "Manon adore jouer a ‘league des méchants’ mais elle n’aime pas les personnes qui y jouent avec elle car ils insultent sans raison tout et tout le monde.",
+	resA : "Autant qu’elle fasse pareil, elle commence à mal parler à une personne sur le jeu.",
+	resB : "Elle reste calme et coupe le chat.",
+	response: "resB",
+	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiple avertissement  elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
+	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
+	genre: "cyberHarcelement.jpg"
+},
+{
 	situation: "Une pote à toi a été accusé d’avoir insulté vos camarades de classe sur Facebook, toi y compris. Or, elle n’a plus accès à son compte.",
 	resA:  "Tu lui demandes des explications, ne la croit pas et l’envoie bouler.",
 	resB: "Tu lui demandes des explications et vas vérifier sa connexion Facebook avec elle.",
@@ -180,6 +189,24 @@ var situations = [{
 	genre : "cyberHarcelement.jpg"
 },
 {
+	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
+	resA: "Pas de soucis après tout ils ne s'opposeront pas à la diffusion de l’image.",
+	resB: "Marc va voir ces amis et demande si il peut diffuser la photo.",
+	response: "resB",
+	ifResA: "Un de ces copains ne savait pas pour la photo et a porté plainte pour droit d’image résultat Marc à récolter de 45000€ d’amende + 1 un an de prison ,c’est vraiment dommage il a rencontré josé en prison et c’est prit un coup de lavabo et a fini complètement défiguré,sans dent.",
+	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
+	genre: "droit.jpg",
+},
+{
+	situation :"Horace veut s’inscrire sur Twitter. Il cherche sur google, et sélectionne le premier site 'http://www.twiter.com'.",
+	resA : "Le site s’affiche, Horace remplis le formulaire et s’inscrit.",
+	resB : "Le site s’affiche mais en relisant, il se rend compte d’une faute dans l'écriture de l’adresse.",
+	response : "resB",
+	ifResA : "On vient de voler l’identité d’Horace, sans qu’il ne le sache ! Le hacker à récupérer ses données et se fait passer pour lui auprès de ses amis. En retournant en cours le lundi matin, il s’est rendu compte que 4 de ses amis avait été arnaquer par cette personne.",
+	ifResB : "Vérifiez que votre navigateur se connecte à des sites sécurisés, qui cryptent les informations transmises entre le client et le site internet. Les sites qui utilisent ce protocole commencent par  'https:// ' et/ou un cadenas à côté de l’url. Vérifiez aussi l’adresse du site ou l’orthographe. Ce sont souvent des signes.",
+	genre: "reseauSociaux.jpg"
+}
+{
 	situation : "Martin et Kelly se sont rencontrés sur internet. Après de nombreuses discussions passionnées, ils décident de se faire un chat vidéo. Quelques minutes après avoir commencé, Kelly propose à Martin de se déshabiller et elle aussi.",
 	resA : "Martin accepte! Ca fait 2 mois qu’ils se connaissent et qu’ils communiquent par téléphone. En plus, c’est cool!",
 	resB : "Martin refuse! Il ne veut pas prendre de risques, même s’il en a très envie!",
@@ -197,34 +224,4 @@ var situations = [{
 	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	genre : "reseausociaux.jpg",
 },
-{
-	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
-	resA: "Pas de soucis après tout ils ne s'opposeront pas à la diffusion de l’image.",
-	resB: "Marc va voir ces amis et demande si il peut diffuser la photo.",
-	response: "resB",
-	ifResA: "Un de ces copains ne savait pas pour la photo et a porté plainte pour droit d’image résultat Marc à récolter de 45000€ d’amende + 1 un an de prison ,c’est vraiment dommage il a rencontré josé en prison et c’est prit un coup de lavabo et a fini complètement défiguré,sans dent.",
-	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
-	genre: "droit.jpg",
-},
-{
-
-	situation: "Manon adore jouer a ‘league des méchants’ mais elle n’aime pas les personnes qui y jouent avec elle car ils insultent sans raison tout et tout le monde.",
-	resA : "Autant qu’elle fasse pareil, elle commence à mal parler à une personne sur le jeu.",
-	resB : "Elle reste calme et coupe le chat.",
-	response: "resB",
-	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiple avertissement  elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
-	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
-	genre: "cyberHarcelement.jpg"
-},
-
-
-{
-	situation :"Horace veut s’inscrire sur Twitter. Il cherche sur google, et sélectionne le premier site 'http://www.twiter.com'.",
-	resA : "Le site s’affiche, Horace remplis le formulaire et s’inscrit.",
-	resB : "Le site s’affiche mais en relisant, il se rend compte d’une faute dans l'écriture de l’adresse.",
-	response : "resB",
-	ifResA : "On vient de voler l’identité d’Horace, sans qu’il ne le sache ! Le hacker à récupérer ses données et se fait passer pour lui auprès de ses amis. En retournant en cours le lundi matin, il s’est rendu compte que 4 de ses amis avait été arnaquer par cette personne.",
-	ifResB : "Vérifiez que votre navigateur se connecte à des sites sécurisés, qui cryptent les informations transmises entre le client et le site internet. Les sites qui utilisent ce protocole commencent par  'https:// ' et/ou un cadenas à côté de l’url. Vérifiez aussi l’adresse du site ou l’orthographe. Ce sont souvent des signes.",
-	genre: "reseauSociaux.jpg"
-}
 ];
