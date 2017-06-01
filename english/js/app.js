@@ -11,7 +11,7 @@ function GenererPreventionAlea(){
 function CreateButon(){
 	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>GOOGLE</button>");
 	$('#CreateButon').delegate('#redirection','click',function(){
-		window.location.href ='http://www.google.fr';
+		window.location.href = situations[Alea].redirect;;
 	});
 }
 
