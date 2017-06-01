@@ -50,10 +50,7 @@ body {
 	margin: auto;
 	margin-top: 8.5%;
 	margin-bottom: 0.5%;
-	overflow: hidden;
-	width: 30%;
-	border: solid;
-	border-width: 1pt;
+	width: 35%;
 }
 
 .img-load {
@@ -67,9 +64,8 @@ body {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 	margin-top: 10%;
-	margin-bottom: 2%;
-	width: 35%;
-	box-shadow: 0px 2px 10px black;
+	margin-bottom: 1.5%;
+	width: 45%;
 }
 
 .brown {
