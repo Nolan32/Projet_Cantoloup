@@ -14,7 +14,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "C’est con...ton “ami” était un serial killer... tu est mort dans d’horribles souffrances après avoir été séquestré pendant des semaines...",
 	ifResB: "Fait très attention aux rendez-vous que tu prends sur Internet ! Tu peux te retrouver dans de très mauvaises situations (violences, vols, viols…), même si ce sont des 'ami(e)s' qui te proposent ce rendez-vous. Alors, parles-en à tes parents et ils te diront si tu peux y aller où s’ils viendront avec toi la première fois.",
-	genre : "reseauSociaux.jpg",
+	genre : "reseausociaux.jpg",
 },
 {
 	situation: "Lors de tes discussions sur les réseaux sociaux, tu rentres en communication avec un pote que tu as rencontré lors d’une fête entre ami(e)s. Puis, tu te rends compte qu’il te demande beaucoup d’infos persos sur toi et d’autres potes…",
@@ -195,7 +195,7 @@ var situations = [{
 	response : "resA",
 	ifResA : "Grâce à internet et aux réseaux sociaux, l’ami de Frank n’a fait que lire les informations qu’il y a sur internet ! Alors, vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
-	genre : "reseauSociaux.jpg",
+	genre : "reseausociaux.jpg",
 },
 {
 	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
