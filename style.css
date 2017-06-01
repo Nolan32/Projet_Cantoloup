@@ -1,17 +1,13 @@
 body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*background-image: url('Enfants.jpg');*/
 	background-color: Gainsboro;
-	box-shadow: 6px 3px 20px black;
-	width: auto;
-	height: auto;
 }
 
 .nav-wrapper {
-	display: block;
-	margin: auto;
 	width: 100%;
-	padding-bottom: 9%;
-	position: fixed;
+	padding-bottom: 8%;
+	position: fixed;	
 	top: 0;
 	background-image:linear-gradient(50deg, #F3F8F9, Gainsboro);
 }
@@ -36,58 +32,55 @@ body {
 	text-align: center;
 	margin: auto;
 	color: black;
-	letter-spacing: 8pt;
+	letter-spacing: 10pt;
 	margin-top: 2%;
-	margin-left: 6%;
 }
 
 .sousTitre {
 	text-align: center;
 	margin: auto;
-	margin-top: 1.5%;
-	margin-left: 5.3%;
-	font-size: 85%;
+	margin-top: 0.2%;
+	font-size: 100%;
 	text-shadow: 1px 1px 1px black;
 	letter-spacing: 1pt;
 }
 
-.responsive-img {
+.img-load {
 	display: block;
 	margin: auto;
-	margin-top: 4%;
-	margin-bottom: 4%;
-	margin-left: 3%;
-	border-radius: 16%;
-	border: dashed;
-	border-width: 1pt;
-	width: 85%;
+	margin-top: 8.5%;
+	margin-bottom: 0.5%;
+	width: 35%;
 }
 
-.responsive-img:hover {
-	-webkit-transform:scale(1.07);
-	-moz-transform:scale(1.04);
-	-ms-transform:scale(1.04);
-	-o-transform:scale(1.04);
-	border-radius: 0%;
-	width: 90%;
-	box-shadow: 0px 2px 10px black;
+.img-load {
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
+.img-load:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	margin-top: 10%;
+	margin-bottom: 1.5%;
+	width: 45%;
+}
+
+.brown {
+	display: block;
+	margin: auto;
+	width: 90%;
+	height: auto;
+	text-align: center;
+	box-shadow: 0px 2px 10px black;
+	padding: 1%;
+	margin-bottom: 1%;
 }
 
 #resA, #resB {
-	font-size: 115%;
-}
-
-#radioBtn {
-	display: block;
-	margin: auto;
-	text-align: center;
-}
-
-button {
-	display: block;
-	margin: auto;
-	margin-top: 2%;
+	font-size: 190%;
 }
 
 .btn_redirect {
@@ -101,15 +94,13 @@ button {
 #situation {
 	display: block;
 	margin: auto;
-	font-size: 120%;
+	font-size: 200%;
 	text-align: center;
 	padding-bottom: 2%;
 }
 
 .center-align {
-	padding-bottom: 1%;
-	margin-top: 4%;
-	font-size: 150%;
+	font-size: 250%;
 	font-weight: bold;
 }
 
@@ -119,30 +110,4 @@ button {
 	margin: auto;
 	margin-bottom: 2%;
 	text-align: center;
-}
-
-.brown {
-	display: block;
-	margin: auto;
-	width: auto;
-	height: auto;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	text-align: center;
-	box-shadow: 0px 2px 10px black;
-}
-
-.parallax {
-	filter: blur(10px) brightness(1);
-}
-
-.parallax-container{
-	margin-top: 9%;
-} 
-
-#validate {
-	display: block;
-	margin: auto;
-	margin-top: 2%;
-	margin-bottom: 2%;
 }
