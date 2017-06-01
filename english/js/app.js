@@ -1,18 +1,20 @@
-console.log('Hello');
 var count=0;
-var Alea =Math.floor(Math.random()*situations.length);				
+var Alea =Math.floor(Math.random()*situations.length);
+
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
 	$('#situation').html(situations[Alea].situation);
 	$('#resA').html(situations[Alea].resA);
 	$('#resB').html(situations[Alea].resB);
-}	
+}
+
 function CreateButon(){
-	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>www.google.fr</button>");
+	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>GOOGLE</button>");
 	$('#CreateButon').delegate('#redirection','click',function(){
 		window.location.href ='http://www.google.fr';
 	});
 }
+
 function reponsePreventionMessage() {
 	if ($("#radioBtn input").is(':checked')){
 		var test = $("#radioBtn input:checked").val();
@@ -23,11 +25,13 @@ function reponsePreventionMessage() {
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}else{
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}
 		}else{
@@ -35,37 +39,24 @@ function reponsePreventionMessage() {
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}else{
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}
 		}
-	}else{
-		console.log("Pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Please tick a response to access the internet</div>');
 	}
 }
 
-
-
-
-
-
-
-
-
 $(document).ready(function(){
 	GenererPreventionAlea();
-	$("#validate").click(function() {
+	$("#radioBtn input").click(function() {
 		reponsePreventionMessage();
-		count ++
+		count ++;
 	});
-
-	$('.parallax').parallax();
-	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
-	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
 });
 

@@ -16,7 +16,6 @@ function CreateButon(){
 }
 
 function reponsePreventionMessage(){
-
 	if ($("#radioBtn input").is(':checked')){
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
@@ -26,11 +25,13 @@ function reponsePreventionMessage(){
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}else{
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}
 		}else{
@@ -38,23 +39,22 @@ function reponsePreventionMessage(){
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}else{
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
+					count = 0;
 				}
 			}
 		}
-	}else{
-		console.log("Pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez une réponse pour accéder à internet</div>');
 	}
 }
 
 $(document).ready(function(){
 	GenererPreventionAlea();
-	$("#radioBtn").click(function() {
+	$("#radioBtn input").click(function() {
 		reponsePreventionMessage();
 		count ++;
 	});
