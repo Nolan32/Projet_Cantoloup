@@ -72,7 +72,7 @@ var situations = [{
 },
 {
 	situation: "Cela fait plusieurs semaines que le petit-copain de Lily lui fait des avances insistantes via Internet. Il lui demande de faire des choses très osées.",
-	resA: "Elle refuse catégoriquement de faire quoi que ce soit. Elle en parle à un quelqu’un de confiance. Et sur les conseils de ses potes le quitte. ",
+	resA: "Elle refuse catégoriquement de faire quoi que ce soit. Elle en parle à un quelqu’un de confiance. Et, sur les conseils de ses potes, le quitte. ",
 	resB: "Amoureuse, elle cède à ses demandes à contre coeur.",
 	response: "resA",
 	ifResA: "La pornographie a un impact indéniable sur les violences faites aux femmes : la banalisation et la légitimation de rapports violents.",
@@ -205,6 +205,16 @@ var situations = [{
 	ifResA : "Grâce à internet et aux réseaux sociaux, l’ami de Frank n’a fait que lire les informations qu’il y a sur internet ! Alors, vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	genre : "reseauSociaux.jpg",
+},
+{
+	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
+	resA: "Pas de soucis après tout ils ne s'opposeront pas à la diffusion de l’image.",
+	resB: "Marc va voir ces amis et demande si il peut diffuser la photo.",
+	response: "resB",
+	ifResA: "Un de ces copains ne savait pas pour la photo et a porté plainte pour droit d’image résultat Marc à récolter de 45000€ d’amende + 1 un an de prison ,c’est vraiment dommage il a rencontré josé en prison et c’est prit un coup de lavabo et a fini complètement défiguré,sans dent.",
+	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
+	genre: "droit.jpg",
+
 }
 
 
