@@ -14,7 +14,7 @@ var situations = [{
 	response: "resB",
 	ifResA: "C’est con...ton “ami” était un serial killer... tu est mort dans d’horribles souffrances après avoir été séquestré pendant des semaines...",
 	ifResB: "Fait très attention aux rendez-vous que tu prends sur Internet ! Tu peux te retrouver dans de très mauvaises situations (violences, vols, viols…), même si ce sont des 'ami(e)s' qui te proposent ce rendez-vous. Alors, parles-en à tes parents et ils te diront si tu peux y aller où s’ils viendront avec toi la première fois.",
-	genre : "reseauSociaux.jpg",
+	genre : "reseausociaux.jpg",
 },
 {
 	situation: "Lors de tes discussions sur les réseaux sociaux, tu rentres en communication avec un pote que tu as rencontré lors d’une fête entre ami(e)s. Puis, tu te rends compte qu’il te demande beaucoup d’infos persos sur toi et d’autres potes…",
@@ -195,7 +195,7 @@ var situations = [{
 	response : "resA",
 	ifResA : "Grâce à internet et aux réseaux sociaux, l’ami de Frank n’a fait que lire les informations qu’il y a sur internet ! Alors, vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
 	ifResB : "Pose toi des questions, et vérifie tes traces, n’hésite pas à taper ton nom dans un moteur de recherche pour voir quelles informations sont disponibles sur toi.",
-	genre : "reseauSociaux.jpg",
+	genre : "reseausociaux.jpg",
 },
 {
 	situation: "Marc souhaite publier une photo sur les réseau sociaux sur laquelle il est avec des amis sans demander leurs avis.",
@@ -205,11 +205,26 @@ var situations = [{
 	ifResA: "Un de ces copains ne savait pas pour la photo et a porté plainte pour droit d’image résultat Marc à récolter de 45000€ d’amende + 1 un an de prison ,c’est vraiment dommage il a rencontré josé en prison et c’est prit un coup de lavabo et a fini complètement défiguré,sans dent.",
 	ifResB: "Lorsque tu souhaites publié une photo demande toujours l’accord de toute les personnes sur la photo cela peut t'éviter des ennuies au niveau du droit à l’image.",
 	genre: "droit.jpg",
+},
+{
 
+	situation: "Manon adore jouer a ‘league des méchants’ mais elle n’aime pas les personnes qui y jouent avec elle car ils insultent sans raison tout et tout le monde.",
+	resA : "Autant qu’elle fasse pareil, elle commence à mal parler à une personne sur le jeu.",
+	resB : "Elle reste calme et coupe le chat.",
+	response: "resB",
+	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiple avertissement  elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
+	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
+	genre: "cyberHarcelement.jpg"
+},
+
+
+{
+	situation :"Horace veut s’inscrire sur Twitter. Il cherche sur google, et sélectionne le premier site 'http://www.twiter.com'.",
+	resA : "Le site s’affiche, Horace remplis le formulaire et s’inscrit.",
+	resB : "Le site s’affiche mais en relisant, il se rend compte d’une faute dans l'écriture de l’adresse.",
+	response : "resB",
+	ifResA : "On vient de voler l’identité d’Horace, sans qu’il ne le sache ! Le hacker à récupérer ses données et se fait passer pour lui auprès de ses amis. En retournant en cours le lundi matin, il s’est rendu compte que 4 de ses amis avait été arnaquer par cette personne.",
+	ifResB : "Vérifiez que votre navigateur se connecte à des sites sécurisés, qui cryptent les informations transmises entre le client et le site internet. Les sites qui utilisent ce protocole commencent par  'https:// ' et/ou un cadenas à côté de l’url. Vérifiez aussi l’adresse du site ou l’orthographe. Ce sont souvent des signes.",
+	genre: "reseauSociaux.jpg"
 }
-
-
-
-
-
 ];
