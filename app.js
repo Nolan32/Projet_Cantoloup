@@ -35,25 +35,21 @@ function CreateButon(){
 }
 
 function reponsePreventionMessage(){
-	console.log(count);
 	if ($("#radioBtn input").is(':checked')){
 		var test = $("#radioBtn input:checked").val();
 		console.log(test);
-
 
 		if(test === situations[Alea].response){	
 			if (situations[Alea].response === "resA") {		
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
-					console.log(count);
 					count = 0;
 				}
 			}else{
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
-					console.log(count);
 					count = 0;
 				}
 			}
@@ -62,13 +58,11 @@ function reponsePreventionMessage(){
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
 					setTimeout(CreateButon,1000);
-					console.log(count);
 					count = 0;
 				}
 			}else{
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
-					console.log(count);
 					setTimeout(CreateButon,1000);
 					count = 0;
 				}
@@ -81,10 +75,7 @@ $(document).ready(function(){
 	GenererPreventionAlea();
 	$("#radioBtn input").click(function() {
 		reponsePreventionMessage();
-
-		// console.log(count);
 		count ++;
-		// console.log(count);
 	});
 });
 
