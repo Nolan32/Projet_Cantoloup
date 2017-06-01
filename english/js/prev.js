@@ -5,7 +5,7 @@ var situations =[{
 	response : "resB",
 	ifResA : "Too bad, this article is false! At least, she made her friends laugh",
 	ifResB : "Not all the information on the Internet is not to be taken literally! Make your own opinion",
-	genre : "../../res/recherche.jpg"
+	genre : "../../res/recherche.png"
 },
 {
 	situation: "A friend of Facebook, comes in the Gers in vacancy and invites you to come to spend time with him. You trust him(her) or not?",
@@ -32,7 +32,7 @@ var situations =[{
 	response:"resB",
 	ifResA:"Really!? Ok...well the telephone broke when she has put herself on it. It's really silly, she has to buy a new smartphone",
 	ifResB:"Not all video on YouTube or other site on the Network are true. It is important to have a critical look on what you see.",
-	genre:"../../res/recherche.jpg"
+	genre:"../../res/recherche.png"
 },
 {
 	situation: "You pass a lot of time on Facebook. Indeed, it allows you to empty your spirit, to share your experiences and it is your pleasure.",
@@ -153,7 +153,7 @@ var situations =[{
 	response: "resA",
 	ifResA: "In the fight against terrorism and the radicalisation, the Government opened two accounts 'Stop Djihadisme' on Twitter and on Facebook. The social networks establish an inescapable tool, by relieving messages you will contribute to weaken the propaganda.",
 	ifResB: "Your friend made a big kebab at school gate he blew himself up. Dozens of kids died and others were injured. Moreover, a finger remains unidentified … ",
-	genre : "../../res/radicalisation.jpg"
+	genre : "../../res/radicalisation.png"
 },
 {
 	situation: "Because is a good student Charles is the scapegoat of his class.One evening when he was in his room, he realizes that somebody posted degrading photos of him on the Internet. The next day, you see all your classmate laughing at him.",
@@ -199,6 +199,7 @@ var situations =[{
 	ifResA: "One of these friend did not know for the photo and filed a complaint for image right. Marc has been condemned to a forfeit of 45,000€ and a year in jail.It's really a shame, he met José in jail and he tooks a washbasin stroke in the face and ended up completely disfigured, without any tooth.",
 	ifResB: "When you want to publish a photo always ask for the agreement of all the people in the picture.It can save you from the troubles of the right of image.",
 	genre: "../../res/droit.png",
+
 },
 {
 	situation: "Horace wants to sign up on Twitter. He searches on google, and selects the first site 'http://www.twiter.com'.",
