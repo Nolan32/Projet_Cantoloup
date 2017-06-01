@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="En">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>English Version</title>
-		<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
-		<link rel="stylesheet" type="text/css" href="../style.css">
-	</head>
-	<body>
-		<header>
-			<nav class="nav-wrapper">
-				<a href="index.html"><img class="brand-logo hide-on-med-and-down" src="Logo 2.png" alt="Logo" />	</a>
-				<a href="../index.html"><img class="Fr" src="Fr.png" alt="logoEN"/></a>
-				<h5 id="Title" class="title">Cantoloup Lavallée</h5>
-				<h6 class="sousTitre hide-on-med-and-down">Hotspot</h6>
-			</nav>
-		</header>
-		<div class="img-load center" id="img"></div>
-		<div>
-			<div class="card-panel brown lighten-5">
-				<div id="text">
-					<h5 class="center-align">Please choose the good reaction</h5>
-					<div id="situation"></div>
-				</div>
-				<div>
-					<div id="radioBtn">
-						<div class="col s12">
-							<input id="radioTrue" type="radio" name="answer" value="resA">
-							<label for="radioTrue" class="" id="resA"></label>
-						</div>
-						<div class="col s12">
-							<input id="radioFalse" type="radio" name="answer" value="resB">
-							<label for="radioFalse" id="resB"></label>
-						</div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>English Version</title>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+	<header>
+		<nav class="nav-wrapper">
+			<a href="index.html"><img class="brand-logo hide-on-med-and-down" src="Logo 2.png" alt="Logo" />	</a>
+			<a href="../index.html"><img class="Fr" src="Fr.png" alt="logoEN"/></a>
+			<h5 id="Title" class="title">Cantoloup Lavallée</h5>
+			<h6 class="sousTitre hide-on-med-and-down">Hotspot</h6>
+		</nav>
+	</header>
+	
+	<div class="img-load center" id="img"></div>
+
+	<div>
+		<div class="card-panel brown lighten-5">
+			<div id="text">
+				<h5 class="align">Please choose the good reaction</h5>
+				<div id="situation"></div>
+			</div>
+			<div>
+				<div id="radioBtn">
+
+					<div>
+						<input id="radioTrue" type="radio" name="answer" value="resA">
+						<label for="radioTrue" class="" id="resA"></label>
+					</div>
+
+					<div>
+						<input id="radioFalse" type="radio" name="answer" value="resB">
+						<label for="radioFalse" id="resB"></label>
+
 					</div>
 				</div>
-				<div class="center" id="reponsePrevention"></div>
-				<div class="center" id="CreateButon"></div>
 			</div>
-		</div>
 
-		<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
-		<script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
-		<script type="text/javascript" src="js/prev.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
-	</body>
+			<div class="center" id="reponsePrevention"></div>
+			<div class="center" id="CreateButon"></div>
+		</div>
+	</div>
+
+	<h4 class="center-align">Vos dessins</h4>
+
+	<div class="carousel">
+		<div>
+			<a class="carousel-item" href="#one!"><img class="img_carousel" src="../res/Simplon1.jpg"</a>
+			<a class="carousel-item" href="#two!"><img class="img_carousel" src="../res/Simplon2.jpg"</a>
+			<a class="carousel-item" href="#three!"><img class="img_carousel" src="../res/Simplon3.jpg"</a>
+			<a class="carousel-item" href="#four!"><img class="img_carousel" src="../res/Simplon4.jpg"</a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/prev.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
