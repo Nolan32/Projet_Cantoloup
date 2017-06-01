@@ -5,7 +5,7 @@ var situations =[{
 	response : "resB",
 	ifResA : "Too bad, this article is false! At least, she made her friends laugh",
 	ifResB : "Not all the information on the Internet is not to be taken literally! Make your own opinion",
-	genre : "../../res/recherche.jpg"
+	genre : "../../res/recherche.png"
 },
 {
 	situation: "A friend of Facebook, comes in the Gers in vacancy and invites you to come to spend time with him. You trust him(her) or not?",
@@ -32,7 +32,7 @@ var situations =[{
 	response:"resB",
 	ifResA:"Really!? Ok...well the telephone broke when she has put herself on it. It's really silly, she has to buy a new smartphone",
 	ifResB:"Not all video on YouTube or other site on the Network are true. It is important to have a critical look on what you see.",
-	genre:"../../res/recherche.jpg"
+	genre:"../../res/recherche.png"
 },
 {
 	situation: "You pass a lot of time on Facebook. Indeed, it allows you to empty your spirit, to share your experiences and it is your pleasure.",
@@ -41,7 +41,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "The Internet broadcasting is uncontrollable. Even by taking as much precautions as possible. A bad person can returns your arguments against yourself and use your photos / videos to your detriment and to the detriment of the people you love.",
 	ifResB:  "It is good that you think before publishing something. On the Internet everybody can see what you puts on-line (photo, information, opinions). Do not publish embarassing photos of your friends or yourself because their distribution broadcasting is uncontrollable. Your blog or your Facebook's account are not YOUR PERSONAL DIARY!",
-	genre : "../../res/droit.jpg"
+	genre : "../../res/droit.png"
 },
 {
 	situation: "You wish to join on the social networks. You have to complete forms.",
@@ -50,7 +50,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "A hacker finds your password and your email address which you used for your blog. Therefore, as you used the same thingd everywhere, all your personals information were stolen and your computer is dead.",
 	ifResB: "You created several e-mail addresses which are different according to your activities: personal, professional, associative, or social. And you, don't communicate your passwords! Choose them a little complicated (never use your date of birth or your name / nickname).",
-	genre : "../../res/droit.jpg"
+	genre : "../../res/droit.png"
 },
 {
 	situation: "Florian plays a game on his phone and wishes to have free gemstones which normally are not free.",
@@ -68,7 +68,7 @@ var situations =[{
 	response : "resB",
 	ifResA:"Too bad for parent's Arthur, he has been caught to have download the movie and now they have to pay a forfeit of 1500€. Arthur's parents are very happy to pay a movie 1500€ instead of 20€!",
 	ifResB:"Arthur avoids problems for his parents and save his computer of a certain death.", 
-	genre : "../../res/droit.jpg"
+	genre : "../../res/droit.png"
 },
 {
 	situation: "It's been several weeks that Lily's boyfriend makes insistent advances via the Internet. He asks her to do very daring things.",
@@ -77,7 +77,7 @@ var situations =[{
 	response: "resA",
 	ifResA: "Pornography has an undeniable impact on violence against women: the banalization and legitimization of violent relationships.",
 	ifResB: "NEVER GIVE UP AGAINST SEXUAL CHANTAGE! In addition to feeling humiliated, this kind of act can be punished by law." ,
-	genre : "../../res/porn.jpg",
+	genre : "../../res/porn.jpeg",
 },
 {
 	situation : "Julien has learned that sex is used to make babies and want to know more.",
@@ -86,7 +86,7 @@ var situations =[{
 	response : "resA",
 	ifResA : "You can talk to your parents, or even educators. You have to choose the right time and the right place to be able to speak freely.",
 	ifResB : "The day you want to learn how to drive ... watching the whole series of 'TAXI', 1, 2, 3 and 4 will not help you to pass your driving license! Well, pornography is the same, it's fiction!",
-	genre : "../../res/porn.jpg",
+	genre : "../../res/porn.jpeg",
 },
 {
 	situation :  "Julie has illegally download some music from her favorite band. Then a Hadopi's message appears on the screen: 'You downloaded illegally, you have to pay a forfeit of 350 € if you want to recover your computer",
@@ -153,7 +153,7 @@ var situations =[{
 	response: "resA",
 	ifResA: "In the fight against terrorism and the radicalisation, the Government opened two accounts 'Stop Djihadisme' on Twitter and on Facebook. The social networks establish an inescapable tool, by relieving messages you will contribute to weaken the propaganda.",
 	ifResB: "Your friend made a big kebab at school gate he blew himself up. Dozens of kids died and others were injured. Moreover, a finger remains unidentified … ",
-	genre : "../../res/radicalisation.jpg"
+	genre : "../../res/radicalisation.png"
 },
 {
 	situation: "Because is a good student Charles is the scapegoat of his class.One evening when he was in his room, he realizes that somebody posted degrading photos of him on the Internet. The next day, you see all your classmate laughing at him.",
@@ -167,7 +167,7 @@ var situations =[{
 { 
 	situation: "Manon loves to play 'league of the bad guys' but she does not like the people who play with her because they insult everything and everyone for no reason.",
 	resA: "She does the same, she starts to speak badly to a person during the game.",
-	resB: "She stays calm and get out of the chat."
+	resB: "She stays calm and get out of the chat.",
 	response: "resB",
 	ifResA: "Manon is attacked by the same bad person despite multiple warning of this person, Manon continued to speak badly to him.Dimitri annoyed by the words of Manon, launched his keyboard on the screen of his computer, the screen took fire with the little...",
 	ifResB: "You are responsible for what you publish online then moderate your comments ...Do not do to others what you would not want them to do to you.",
@@ -198,7 +198,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "One of these friend did not know for the photo and filed a complaint for image right. Marc has been condemned to a forfeit of 45,000€ and a year in jail.It's really a shame, he met José in jail and he tooks a washbasin stroke in the face and ended up completely disfigured, without any tooth.",
 	ifResB: "When you want to publish a photo always ask for the agreement of all the people in the picture.It can save you from the troubles of the right of image.",
-	genre: "right.jpg",
+	genre: "droit.png",
 },
 {
 	situation: "Horace wants to sign up on Twitter. He searches on google, and selects the first site 'http://www.twiter.com'.",
