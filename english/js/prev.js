@@ -5,7 +5,7 @@ var situations =[{
 	response : "resB",
 	ifResA : "Too bad, this article is false! At least, she made her friends laugh",
 	ifResB : "Not all the information on the Internet is not to be taken literally! Make your own opinion",
-	genre : "../../res/recherche.png"
+	genre : "../../res/recherche.png",
 },
 {
 	situation: "A friend of Facebook, comes in the Gers in vacancy and invites you to come to spend time with him. You trust him(her) or not?",
