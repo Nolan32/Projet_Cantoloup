@@ -54,13 +54,9 @@ function reponsePreventionMessage(){
 
 $(document).ready(function(){
 	GenererPreventionAlea();
-	$("#validate").click(function() {
+	$("#radioBtn").click(function() {
 		reponsePreventionMessage();
 		count ++;
 	});
-
-	$(".parallax").parallax();
-	$(".title").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend");
-	$(".sousTitre").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend");
 });
 
