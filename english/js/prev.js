@@ -14,7 +14,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "Too bad... your 'friend' was a serial killer, you died in horrible pain having been held for weeks...",
 	ifResB: "Be very careful when you take an appointment with someone on the Internet! You can find yourself in very bad situations (violence, thefts, rapes), even if it's your 'friends' who propose you this appointment. Then, speak about it to your parents(relatives) and they will tell you if you can go there or if they will come with you the first time.",
-	genre : "../../res/reseauSociaux.jpg"
+	genre : "../../res/reseausociaux.jpg"
 },
 {
 	situation: "During your discussions on the social networks, you enter in communication with a friend whom you met during a party between friends. Then, you realize that he asks you many personals informations, on you and other buddies …",
@@ -41,7 +41,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "The Internet broadcasting is uncontrollable. Even by taking as much precautions as possible. A bad person can returns your arguments against yourself and use your photos / videos to your detriment and to the detriment of the people you love.",
 	ifResB:  "It is good that you think before publishing something. On the Internet everybody can see what you puts on-line (photo, information, opinions). Do not publish embarassing photos of your friends or yourself because their distribution broadcasting is uncontrollable. Your blog or your Facebook's account are not YOUR PERSONAL DIARY!",
-	genre : "../../res/droit.jpg"
+	genre : "../../res/droit.png"
 },
 {
 	situation: "You wish to join on the social networks. You have to complete forms.",
@@ -50,7 +50,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "A hacker finds your password and your email address which you used for your blog. Therefore, as you used the same thingd everywhere, all your personals information were stolen and your computer is dead.",
 	ifResB: "You created several e-mail addresses which are different according to your activities: personal, professional, associative, or social. And you, don't communicate your passwords! Choose them a little complicated (never use your date of birth or your name / nickname).",
-	genre : "../../res/droit.jpg"
+	genre : "../../res/droit.png"
 },
 {
 	situation: "Florian plays a game on his phone and wishes to have free gemstones which normally are not free.",
@@ -68,7 +68,7 @@ var situations =[{
 	response : "resB",
 	ifResA:"Too bad for parent's Arthur, he has been caught to have download the movie and now they have to pay a forfeit of 1500€. Arthur's parents are very happy to pay a movie 1500€ instead of 20€!",
 	ifResB:"Arthur avoids problems for his parents and save his computer of a certain death.", 
-	genre : "../../res/droit.jpg"
+	genre : "../../res/droit.png"
 },
 {
 	situation: "It's been several weeks that Lily's boyfriend makes insistent advances via the Internet. He asks her to do very daring things.",
@@ -77,7 +77,7 @@ var situations =[{
 	response: "resA",
 	ifResA: "Pornography has an undeniable impact on violence against women: the banalization and legitimization of violent relationships.",
 	ifResB: "NEVER GIVE UP AGAINST SEXUAL CHANTAGE! In addition to feeling humiliated, this kind of act can be punished by law." ,
-	genre : "../../res/porn.jpg",
+	genre : "../../res/porn.jpeg",
 },
 {
 	situation : "Julien has learned that sex is used to make babies and want to know more.",
@@ -86,7 +86,7 @@ var situations =[{
 	response : "resA",
 	ifResA : "You can talk to your parents, or even educators. You have to choose the right time and the right place to be able to speak freely.",
 	ifResB : "The day you want to learn how to drive ... watching the whole series of 'TAXI', 1, 2, 3 and 4 will not help you to pass your driving license! Well, pornography is the same, it's fiction!",
-	genre : "../../res/porn.jpg",
+	genre : "../../res/porn.jpeg",
 },
 {
 	situation :  "Julie has illegally download some music from her favorite band. Then a Hadopi's message appears on the screen: 'You downloaded illegally, you have to pay a forfeit of 350 € if you want to recover your computer",
@@ -167,7 +167,7 @@ var situations =[{
 { 
 	situation: "Manon loves to play 'league of the bad guys' but she does not like the people who play with her because they insult everything and everyone for no reason.",
 	resA: "She does the same, she starts to speak badly to a person during the game.",
-	resB: "She stays calm and get out of the chat."
+	resB: "She stays calm and get out of the chat.",
 	response: "resB",
 	ifResA: "Manon is attacked by the same bad person despite multiple warning of this person, Manon continued to speak badly to him.Dimitri annoyed by the words of Manon, launched his keyboard on the screen of his computer, the screen took fire with the little...",
 	ifResB: "You are responsible for what you publish online then moderate your comments ...Do not do to others what you would not want them to do to you.",
@@ -180,7 +180,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "Her account has been hacked. She had to tell her parents who took the necessary measures. However, she doesn't trust you anymore...",
 	ifResB: "By checking her Facebook connection you realize that someone has hacked her account for malicious purposes. Then you warn an adult.",
-	genre: "cyberHarcelement.jpg",
+	genre: "../../res/cyberHarcelement.jpg",
 },
 {	 
 	situation: "It's been a while since the ambience deteriorated in college, it seems that a war broke out on the social networks. Fights, insults and provocations are part of everyday life.",
@@ -189,7 +189,7 @@ var situations =[{
 	response: "resA",
 	ifResA: "It's a good start, and did you know that at least 40% of students admit to had online assault and 85% of harassment happens as part of a group. Cyber-harassment is everybody's business.",
 	ifResB: "The situation continued to get worse as follows: a crazy person, a kalashnikov and poof...you're dead ...",
-	genre: "cyberHarcelement.jpg",
+	genre: "../../res/cyberHarcelement.jpg",
 },
 {
 	situation: "Marc wants to post a photo on the social network on which he is with his friends, without asking their opinions.",
@@ -198,7 +198,7 @@ var situations =[{
 	response: "resB",
 	ifResA: "One of these friend did not know for the photo and filed a complaint for image right. Marc has been condemned to a forfeit of 45,000€ and a year in jail.It's really a shame, he met José in jail and he tooks a washbasin stroke in the face and ended up completely disfigured, without any tooth.",
 	ifResB: "When you want to publish a photo always ask for the agreement of all the people in the picture.It can save you from the troubles of the right of image.",
-	genre: "right.jpg",
+	genre: "../../res/droit.png",
 },
 {
 	situation: "Horace wants to sign up on Twitter. He searches on google, and selects the first site 'http://www.twiter.com'.",
@@ -207,6 +207,6 @@ var situations =[{
 	response: "resB",
 	ifResA: "Someone just steales the identity of Horace, without his knowing it!The hacker retrieves his data and pretends to be his friend. Returning on Monday morning, he realized that 4 of his friends had been ripped off by that person.",
 	ifResB: "Make sure your browser connects to secure sites that encrypt the information transmitted between the client and the website. Sites that use this protocol start with 'https: //' and / or a padlock next to the url. Also check the site address or spelling. These are often signs.",
-	genre:"hack.jpg",
+	genre:"../../res/hack.jpg",
 },
 ];

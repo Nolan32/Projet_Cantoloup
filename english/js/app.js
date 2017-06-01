@@ -1,4 +1,3 @@
-console.log('Hello');
 var count=0;
 var Alea =Math.floor(Math.random()*situations.length);				
 function GenererPreventionAlea(){
@@ -8,7 +7,7 @@ function GenererPreventionAlea(){
 	$('#resB').html(situations[Alea].resB);
 }	
 function CreateButon(){
-	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>www.google.fr</button>");
+	$('#CreateButon').append("<button class='btn waves-effect green darken-2' id='redirection'>GOOGLE</button>");
 	$('#CreateButon').delegate('#redirection','click',function(){
 		window.location.href ='http://www.google.fr';
 	});
@@ -43,29 +42,14 @@ function reponsePreventionMessage() {
 				}
 			}
 		}
-	}else{
-		console.log("Pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Please tick a response to access the internet</div>');
 	}
 }
 
-
-
-
-
-
-
-
-
 $(document).ready(function(){
 	GenererPreventionAlea();
-	$("#validate").click(function() {
+	$("#radioBtn").click(function() {
 		reponsePreventionMessage();
-		count ++
+		count ++;
 	});
-
-	$('.parallax').parallax();
-	$('.title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
-	$('.sousTitre').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
 });
 

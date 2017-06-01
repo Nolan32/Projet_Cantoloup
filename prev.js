@@ -165,7 +165,7 @@ var situations = [{
 	resA : "Autant qu’elle fasse pareil, elle commence à mal parler à une personne sur le jeu.",
 	resB : "Elle reste calme et coupe le chat.",
 	response: "resB",
-	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiple avertissement  elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
+	ifResA : "Manon c’est attaqué à la mauvaise personne. Dimitri malgré de multiples avertissements, elle a continué à mal lui parler, Dimitri  enervé des propos de Manon a lancé son clavier sur l’’écran de son ordinateur, l'écran a prit feu et le petit Dimitri avec...",
 	ifResB : "Tu es responsable de ce que tu écris en ligne alors modère tes propos … Ne fais pas aux autres ce que tu n’aimerais pas qu’on te fasse.",
 	genre: "cyberHarcelement.jpg"
 },

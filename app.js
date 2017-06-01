@@ -1,6 +1,5 @@
 var count=0;
 var Alea = Math.floor(Math.random()*situations.length);
-
 function GenererPreventionAlea(){
 	$('#img').append("<img class='responsive-img' src='res/"+situations[Alea].genre+"'>");
 	$('#situation').html(situations[Alea].situation);
@@ -46,9 +45,6 @@ function reponsePreventionMessage(){
 				}
 			}
 		}
-	}else{
-		console.log("Pas de reponse selectionnée");
-		$('#reponsePrevention').html('<div class="card-panel red darken-1 Panel">Veuillez cochez une réponse pour accéder à internet</div>');
 	}
 }
 
