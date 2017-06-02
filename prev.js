@@ -51,6 +51,7 @@ var situations = [{
 	ifResB:  "C’est bien que tu réfléchisses avant de publier quelque chose. Sur Internet tout le monde peut voir ce que tu met en ligne (photo, infos, opinions). Ne publie pas de photos gênantes de tes amis ou toi-même car leur diffusion est incontrôlable. Ton blog ou ton compte Facebook ne sont pas TON JOURNAL INTIME !",
 	genre : "../res/reseausociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
+	redirect : "http://surfez-intelligent.dgmic.culture.gouv.fr/spip.php?rubrique7",
 },
 {
 	situation: "Tu souhaites t’inscrire sur les réseaux sociaux. Pour cela tu dois remplir des formulaires.",
@@ -61,6 +62,7 @@ var situations = [{
 	ifResB: "Tu créais plusieurs adresses électroniques qui sont différentes en fonction de tes activités : personnelles, professionnelles, associatives, ou sociales. Et tu ne communiques pas tes mots de passe !Et les choisis un peu compliqués (Ps: N'utilise jamais ta date de naissance ou ton nom/surnom).",
 	genre : "../res/reseausociaux.jpg",
 	genreSrc : "https://stocksnap.io/photo/WBWKY1FQ2I",
+	redirect : "http://surfez-intelligent.dgmic.culture.gouv.fr/spip.php?rubrique7",
 },
 {
 	situation: "Florian joue à un jeu sur son téléphone mobile et souhaite avoir gratuitement des gemmes qui normalement sont payantes en euro.",
