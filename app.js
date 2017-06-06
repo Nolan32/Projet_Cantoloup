@@ -24,28 +24,24 @@ function reponsePreventionMessage(){
 			if (situations[Alea].response === "resA") {		
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
-					setTimeout(CreateButon,1000);
-					count = 0;
+					setTimeout(CreateButon,7000);
 				}
 			}else{
 				$("#reponsePrevention").html('<div class="card-panel light-green lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
-					setTimeout(CreateButon,1000);
-					count = 0;
+					setTimeout(CreateButon,7000);
 				}
 			}
 		}else{
 			if (situations[Alea].response === "resB") {
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResA+'</div>');
 				if (count===0) {
-					setTimeout(CreateButon,1000);
-					count = 0;
+					setTimeout(CreateButon,7000);
 				}
 			}else{
 				$('#reponsePrevention').html('<div class="card-panel red lighten-2 Panel">'+situations[Alea].ifResB+'</div>');
 				if (count===0) {
-					setTimeout(CreateButon,1000);
-					count = 0;
+					setTimeout(CreateButon,7000);
 				}
 			}
 		}
